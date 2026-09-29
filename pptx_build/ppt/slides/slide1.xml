@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr>
+      <p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/><a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>
+
+            <!-- SIH Top Banner Stripe (Tricolor Accent) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="101" name="BannerTop"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="0" y="0"/><a:ext cx="12192000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="EA580C"/></a:solidFill>
+        </p:spPr>
+      </p:sp>
+
+      <!-- SIH Header Box -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="102" name="HeaderBox"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="220000"/><a:ext cx="10992000" cy="850000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:noFill/>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/><a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="EA580C"/></a:solidFill></a:rPr>
+              <a:t>SMART INDIA HACKATHON 2026</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr sz="1100"><a:solidFill><a:srgbClr val="64748B"/></a:solidFill></a:rPr>
+              <a:t>  |  THEME: LEGALTECH &amp; SMART GOVERNANCE  |  SLIDE 1 OF 5: PROBLEM, SOLUTION &amp; HIERARCHY</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" marR="0" indent="0"/>
+            <a:r>
+              <a:rPr sz="2200" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr>
+              <a:t>National Legal &amp; Investigation Document Repository (NLADR)</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" marR="0" indent="0"/>
+            <a:r>
+              <a:rPr sz="1150" i="1"><a:solidFill><a:srgbClr val="475569"/></a:solidFill></a:rPr>
+              <a:t>Sovereign Tamper-Evident Evidence Lifecycle, Chain-of-Custody &amp; Judicial Integrity</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- SIH Header Divider -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="103" name="Divider"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="1120000"/><a:ext cx="10992000" cy="25000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="CBD5E1"/></a:solidFill>
+        </p:spPr>
+      </p:sp>
+
+      <!-- Card 1: Real-World Issue (Left Column Top) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="110" name="CardProblem"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="1250000"/><a:ext cx="5250000" cy="1550000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 2000"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="FEF2F2"/></a:solidFill>
+          <a:ln w="19050"><a:solidFill><a:srgbClr val="F87171"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="180000" tIns="140000" rIns="180000" bIns="140000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="1300" b="1"><a:solidFill><a:srgbClr val="991B1B"/></a:solidFill></a:rPr><a:t>[!] REAL-WORLD ISSUE: EVIDENCE VULNERABILITY IN PAPER SYSTEMS</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:r><a:rPr sz="1050"><a:solidFill><a:srgbClr val="1E293B"/></a:solidFill></a:rPr>
+            <a:t>â€¢ 5.02 Crore+ pending cases in Indian courts; criminal trials average 5-11 years.&#10;â€¢ Critical procedural delays and wrongful acquittals result from missing case diaries, manipulated physical evidence, and broken chains of custody.&#10;â€¢ High risk of physical damage, warehouse file decay, and unauthorized record swapping.</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- Card 2: Solution & Why It Is Important (Left Column Mid) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="111" name="CardSolution"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="2900000"/><a:ext cx="5250000" cy="1650000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 2000"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="F0FDF4"/></a:solidFill>
+          <a:ln w="19050"><a:solidFill><a:srgbClr val="4ADE80"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="180000" tIns="140000" rIns="180000" bIns="140000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="1300" b="1"><a:solidFill><a:srgbClr val="166534"/></a:solidFill></a:rPr><a:t>[âœ“] PROPOSED SOVEREIGN SOLUTION &amp; IMPORTANCE</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:r><a:rPr sz="1050"><a:solidFill><a:srgbClr val="1E293B"/></a:solidFill></a:rPr>
+            <a:t>â€¢ NLADR: Sovereign, role-based digital evidence management portal.&#10;â€¢ Client-Side SHA-256 Hashing locks evidence integrity at ingestion.&#10;â€¢ Dual Physical-Digital Vault Mapping binds physical exhibits to cloud dockets.&#10;â€¢ Why Important: Guarantees Article 21 Right to Speedy Trial; prevents custodial tampering; eliminates paper loss.</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- Card 3: Identified Risks & Engineering Mitigations (Left Column Bottom) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="112" name="CardRisks"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="4650000"/><a:ext cx="5250000" cy="1850000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 2000"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="FFFBEB"/></a:solidFill>
+          <a:ln w="19050"><a:solidFill><a:srgbClr val="FCD34D"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="180000" tIns="140000" rIns="180000" bIns="140000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="1300" b="1"><a:solidFill><a:srgbClr val="92400E"/></a:solidFill></a:rPr><a:t>[!] IDENTIFIED RISKS &amp; ENGINEERING MITIGATIONS</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:r><a:rPr sz="1000"><a:solidFill><a:srgbClr val="1E293B"/></a:solidFill></a:rPr>
+            <a:t>1. Insider Tampering: SHA-256 digest comparison halts compromised dossiers.&#10;2. Judicial Rejection: Automated Section 63 BSA / Sec 65B electronic certificates.&#10;3. Data Privacy Breach: Strict RBAC &amp; DPDP Act 2023 complainant redaction.&#10;4. Physical/Digital Desync: Barcode/QR locator tags on physical warehouse racks.</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- Card 4: Hierarchical Structure Form (Right Column Full) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="113" name="CardHierarchy"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="6050000" y="1250000"/><a:ext cx="5542000" cy="5250000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 1500"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="F8FAFC"/></a:solidFill>
+          <a:ln w="19050"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="200000" tIns="160000" rIns="200000" bIns="160000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="1400" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr><a:t>HIERARCHICAL GOVERNANCE &amp; OPERATIONAL STRUCTURE</a:t></a:r>
+          </a:p>
+          <a:p><a:r><a:rPr sz="1000" i="1"><a:solidFill><a:srgbClr val="64748B"/></a:solidFill></a:rPr><a:t>End-to-End Institutional Coordination Across India's Legal Framework</a:t></a:r></a:p>
+          <a:p>
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr>
+            <a:t>&#10;[1] MINISTRY LEVEL: Ministry of Law &amp; Justice / Ministry of Home Affairs</a:t></a:r>
+            <a:r><a:rPr sz="1000"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;  â”œâ”€â”€ Policy guidelines, statutory alignment (BNS, BNSS, BSA 2023)&#10;  â””â”€â”€ Interoperability with e-Courts 3.0 &amp; ICJS National Backbone</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="0284C7"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;[2] NLADR CENTRAL CORE: Sovereign Cryptographic Grid</a:t></a:r>
+            <a:r><a:rPr sz="1000"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;  â”œâ”€â”€ FIPS 180-4 SHA-256 Checksum Engine &amp; RFC 3161 Timestamping&#10;  â””â”€â”€ Immutable Audit Log, Intrusion Detection &amp; Zero-Trust Gatekeeper</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="EA580C"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;[3] LAW ENFORCEMENT: Investigating Officers (IO) &amp; Police Stations</a:t></a:r>
+            <a:r><a:rPr sz="1000"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;  â”œâ”€â”€ Case diary entries under Sec 173 CrPC / Sec 193 BNSS&#10;  â”œâ”€â”€ Digital seizure memo &amp; videography hashing (Sec 105 BNSS)&#10;  â””â”€â”€ Dispatch to Forensic Science Laboratories (CFSL/FSL)</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="16A34A"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;[4] JUDICIAL &amp; PROSECUTION: Public Prosecutors &amp; Trial Courts</a:t></a:r>
+            <a:r><a:rPr sz="1000"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;  â”œâ”€â”€ Charge-sheet review, trial hearing schedules &amp; conviction tracking&#10;  â””â”€â”€ Automated Sec 63 BSA / Sec 65B IEA Certified Exhibit Generation</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="6D28D9"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;[5] PHYSICAL CUSTODY &amp; CITIZEN TRANSPARENCY</a:t></a:r>
+            <a:r><a:rPr sz="1000"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;  â”œâ”€â”€ Record Custodian: Warehouse, Vault, Rack &amp; Shelf Spatial Mapping&#10;  â””â”€â”€ Citizen Portal: FIR tracking, grievance filing &amp; certified receipts</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+    </p:spTree>
+  </p:cSld>
+</p:sld>

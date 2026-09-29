@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <style>
+      .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 26px; font-weight: 800; fill: #002266; }
+      .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #475569; }
+      .badge-tag { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; font-weight: 800; fill: #ea580c; letter-spacing: 0.5px; }
+      .sec-title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; font-weight: 800; }
+      .actor-title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; font-weight: 800; fill: #002266; }
+      .actor-sub { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; fill: #64748b; }
+      .core-title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 18px; font-weight: 800; fill: #002266; }
+      .core-sub { font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; fill: #64748b; }
+      .feat-h { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; font-weight: 800; fill: #002266; }
+      .feat-p { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11.5px; fill: #334155; }
+      .store-h { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; font-weight: 800; }
+      .store-li { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11.5px; fill: #334155; }
+    </style>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="#ffffff" rx="16"/>
+
+  <!-- Top Tricolor Accent Bar -->
+  <rect x="0" y="0" width="400" height="6" fill="#ea580c"/>
+  <rect x="400" y="0" width="400" height="6" fill="#f8fafc"/>
+  <rect x="800" y="0" width="400" height="6" fill="#16a34a"/>
+
+  <!-- Header -->
+  <text x="60" y="48" class="badge-tag">SMART INDIA HACKATHON 2026 • TIERED ARCHITECTURE</text>
+  <text x="60" y="82" class="title">NLADR System Architectural Flow &amp; Entity Relationships</text>
+  <text x="60" y="108" class="subtitle">Coordination between Sovereign Client Actors, Cryptographic Core, Dual Vaults &amp; Judicial Output</text>
+  <line x1="60" y1="126" x2="1140" y2="126" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- SECTION 1: SOVEREIGN CLIENT ACTORS -->
+  <text x="60" y="160" class="sec-title" fill="#002266">1. SOVEREIGN CLIENT ACTORS</text>
+
+  <!-- Actor 1: Police IO -->
+  <rect x="60" y="180" width="270" height="95" rx="14" fill="#ffffff" stroke="#0284c7" stroke-width="2" filter="url(#shadow)"/>
+  <circle cx="102" cy="227" r="24" fill="#e0f2fe"/>
+  <text x="102" y="233" text-anchor="middle" font-size="20">👮</text>
+  <text x="140" y="218" class="actor-title">Police Investigating Officer</text>
+  <text x="140" y="238" class="actor-sub">FIRs, Case Diaries, Seizures</text>
+  <text x="140" y="254" class="actor-sub" font-weight="700" fill="#0284c7">Sec 173 CrPC / 193 BNSS</text>
+
+  <!-- Actor 2: CFSL Lab -->
+  <rect x="60" y="290" width="270" height="95" rx="14" fill="#ffffff" stroke="#ea580c" stroke-width="2" filter="url(#shadow)"/>
+  <circle cx="102" cy="337" r="24" fill="#ffedd5"/>
+  <text x="102" y="343" text-anchor="middle" font-size="20">🔬</text>
+  <text x="140" y="328" class="actor-title">Forensic Analyst (CFSL/FSL)</text>
+  <text x="140" y="348" class="actor-sub">Ballistics &amp; Chemical Matching</text>
+  <text x="140" y="364" class="actor-sub" font-weight="700" fill="#ea580c">Chain of Custody Intake</text>
+
+  <!-- Actor 3: Public Prosecutor -->
+  <rect x="60" y="400" width="270" height="95" rx="14" fill="#ffffff" stroke="#16a34a" stroke-width="2" filter="url(#shadow)"/>
+  <circle cx="102" cy="447" r="24" fill="#dcfce7"/>
+  <text x="102" y="453" text-anchor="middle" font-size="20">⚖️</text>
+  <text x="140" y="438" class="actor-title">Public Prosecutor / Court</text>
+  <text x="140" y="458" class="actor-sub">Charge-Sheet Scrutiny &amp; Trial</text>
+  <text x="140" y="474" class="actor-sub" font-weight="700" fill="#16a34a">Sec 63 BSA Exhibits</text>
+
+  <!-- Actor 4: Vault Custodian -->
+  <rect x="60" y="510" width="270" height="95" rx="14" fill="#ffffff" stroke="#7c3aed" stroke-width="2" filter="url(#shadow)"/>
+  <circle cx="102" cy="557" r="24" fill="#f3e8ff"/>
+  <text x="102" y="563" text-anchor="middle" font-size="20">📦</text>
+  <text x="140" y="548" class="actor-title">Evidence Vault Custodian</text>
+  <text x="140" y="568" class="actor-sub">Warehouse &amp; Rack Coordinates</text>
+  <text x="140" y="584" class="actor-sub" font-weight="700" fill="#7c3aed">Barcode / RFID Tagging</text>
+
+  <!-- Connecting Central Arrow -->
+  <path d="M 345 392 L 395 392 M 383 380 L 397 392 L 383 404" stroke="#002266" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- SECTION 2: CENTRAL SECURITY & LOGIC CORE -->
+  <rect x="415" y="165" width="410" height="450" rx="18" fill="#ffffff" stroke="#002266" stroke-width="3" filter="url(#shadow)"/>
+  <text x="440" y="202" class="core-title">🔐 NLADR SECURITY &amp; LOGIC CORE</text>
+  <text x="440" y="224" class="core-sub">Zero-Trust Sovereign Processing Engine &amp; Gatekeeper</text>
+
+  <!-- Feature Card 1 -->
+  <rect x="440" y="245" width="170" height="165" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="455" y="272" class="feat-h" fill="#0369a1">🛡️ Web Crypto API</text>
+  <text x="455" y="296" class="feat-p">
+    <tspan x="455" dy="0">• Client-side 256-bit</tspan>
+    <tspan x="465" dy="18">SHA-256 digest</tspan>
+    <tspan x="465" dy="18">calculation.</tspan>
+    <tspan x="455" dy="26">• Prevents unhashed</tspan>
+    <tspan x="465" dy="18">file upload.</tspan>
+  </text>
+
+  <!-- Feature Card 2 -->
+  <rect x="630" y="245" width="175" height="165" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="645" y="272" class="feat-h" fill="#ea580c">👥 5-Tier RBAC</text>
+  <text x="645" y="296" class="feat-p">
+    <tspan x="645" dy="0">• Dynamic role &amp;</tspan>
+    <tspan x="655" dy="18">jurisdiction guard.</tspan>
+    <tspan x="645" dy="26">• Automatic masking</tspan>
+    <tspan x="655" dy="18">under DPDP Act</tspan>
+    <tspan x="655" dy="18">for victim privacy.</tspan>
+  </text>
+
+  <!-- Feature Card 3 -->
+  <rect x="440" y="425" width="170" height="165" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="455" y="452" class="feat-h" fill="#16a34a">📜 WORM Ledger</text>
+  <text x="455" y="476" class="feat-p">
+    <tspan x="455" dy="0">• Write-Once-Read-</tspan>
+    <tspan x="465" dy="18">Many semantics.</tspan>
+    <tspan x="455" dy="26">• Immutable actor,</tspan>
+    <tspan x="465" dy="18">IP &amp; timestamp</tspan>
+    <tspan x="465" dy="18">provenance trail.</tspan>
+  </text>
+
+  <!-- Feature Card 4 -->
+  <rect x="630" y="425" width="175" height="165" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="645" y="452" class="feat-h" fill="#dc2626">🚨 Watchdog</text>
+  <text x="645" y="476" class="feat-p">
+    <tspan x="645" dy="0">• Real-time tamper</tspan>
+    <tspan x="655" dy="18">checksum monitor.</tspan>
+    <tspan x="645" dy="26">• Instant docket</tspan>
+    <tspan x="655" dy="18">quarantine upon</tspan>
+    <tspan x="655" dy="18">hash mismatch.</tspan>
+  </text>
+
+  <!-- Connecting Right Forked Arrows -->
+  <path d="M 835 295 L 875 295 M 863 285 L 877 295 L 863 305" stroke="#0284c7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 835 500 L 875 500 M 863 490 L 877 500 L 863 510" stroke="#7c3aed" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- SECTION 3: DUAL VAULT ARCHIVAL -->
+  <!-- Top Vault: Digital -->
+  <rect x="890" y="180" width="250" height="205" rx="14" fill="#f0f9ff" stroke="#0284c7" stroke-width="2" filter="url(#shadow)"/>
+  <text x="912" y="215" class="store-h" fill="#0369a1">☁️ 3A. DIGITAL SOVEREIGN VAULT</text>
+  <text x="912" y="245" class="store-li">
+    <tspan x="912" dy="0">✔ IndexedDB Offline Cache</tspan>
+    <tspan x="912" dy="24">✔ LocalStorage Write-Through</tspan>
+    <tspan x="912" dy="24">✔ Vercel Serverless Edge Cloud</tspan>
+    <tspan x="912" dy="24">✔ PostgreSQL 7-Table Relational</tspan>
+    <tspan x="912" dy="24">✔ &lt;800ms Rural 3G/4G Speed</tspan>
+  </text>
+
+  <!-- Bottom Vault: Physical -->
+  <rect x="890" y="405" width="250" height="205" rx="14" fill="#faf5ff" stroke="#7c3aed" stroke-width="2" filter="url(#shadow)"/>
+  <text x="912" y="440" class="store-h" fill="#6d28d9">🏢 3B. PHYSICAL WAREHOUSE</text>
+  <text x="912" y="470" class="store-li">
+    <tspan x="912" dy="0">✔ Vault Number Identification</tspan>
+    <tspan x="912" dy="24">✔ Rack ID &amp; Shelf Spatial Map</tspan>
+    <tspan x="912" dy="24">✔ Barcode / RFID Tag Validation</tspan>
+    <tspan x="912" dy="24">✔ Physical Tamper-Seal Audit</tspan>
+    <tspan x="912" dy="24">✔ Relational Dual-Vault Binding</tspan>
+  </text>
+
+</svg>

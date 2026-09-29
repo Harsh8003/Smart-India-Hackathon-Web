@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NLADR - Visual Architecture & Flowchart Deck (SIH 2026)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --gov-navy: #002266;
+      --gov-navy-deep: #0a192f;
+      --gov-saffron: #ea580c;
+      --gov-green: #16a34a;
+      --gov-blue: #0284c7;
+      --gov-purple: #7c3aed;
+      --gov-red: #dc2626;
+      --gov-bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --border-color: #cbd5e1;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #0b1329;
+      color: var(--text-main);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 1.5rem;
+    }
+
+    /* Top Action Bar */
+    .top-toolbar {
+      width: 100%;
+      max-width: 1200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 12px;
+      padding: 0.85rem 1.5rem;
+      margin-bottom: 1.5rem;
+      color: #ffffff;
+    }
+
+    .toolbar-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .badge-sih {
+      background: var(--gov-saffron);
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 800;
+      padding: 0.25rem 0.6rem;
+      border-radius: 6px;
+      letter-spacing: 0.5px;
+    }
+
+    .nav-btn-group {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .btn {
+      padding: 0.55rem 1.1rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.12);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.22);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #ea580c, #c2410c);
+      color: #fff;
+      border: none;
+      box-shadow: 0 4px 14px rgba(234, 88, 12, 0.35);
+    }
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(234, 88, 12, 0.45);
+    }
+
+    /* 16:9 Presentation Slide Canvas */
+    .slide-wrapper {
+      width: 100%;
+      max-width: 1200px;
+      aspect-ratio: 16 / 9;
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.1);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Top Tricolor Banner */
+    .slide-top-stripe {
+      height: 6px;
+      width: 100%;
+      background: linear-gradient(to right, #ea580c 33%, #ffffff 33%, #ffffff 66%, #16a34a 66%);
+    }
+
+    /* Header */
+    .slide-header {
+      padding: 1.25rem 2.25rem 0.85rem;
+      border-bottom: 1px solid #e2e8f0;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      background: #ffffff;
+    }
+
+    .slide-tag-row {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--gov-saffron);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 0.3rem;
+    }
+
+    .slide-tag-row span.sep {
+      color: #94a3b8;
+    }
+
+    .slide-title {
+      font-size: 1.55rem;
+      font-weight: 800;
+      color: var(--gov-navy);
+      line-height: 1.2;
+    }
+
+    .slide-subtitle {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    .slide-pill {
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 0.35rem 0.85rem;
+      border-radius: 20px;
+      border: 1px solid var(--border-color);
+      background: #f8fafc;
+      color: var(--gov-navy);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    /* Slide Content Viewports */
+    .slide-content {
+      flex: 1;
+      padding: 1.5rem 2.25rem;
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      background: #fafcff;
+    }
+
+    .slide-content.active {
+      display: flex;
+    }
+
+    /* ==========================================================================
+       SLIDE 1: 5-Stage Closed-Loop Horizontal Flow
+       ========================================================================== */
+    .flow-5-steps {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0.85rem;
+      align-items: stretch;
+      position: relative;
+    }
+
+    .step-column {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    /* Shapes */
+    .shape-node {
+      height: 90px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0.5rem;
+      position: relative;
+      transition: transform 0.2s ease;
+      cursor: default;
+    }
+
+    .shape-node:hover {
+      transform: translateY(-2px);
+    }
+
+    /* Shape 1, 3, 4: Rounded Rectangles */
+    .shape-round-rect {
+      border-radius: 14px;
+      border: 2px solid;
+    }
+
+    /* Shape 2, 5: Ovals */
+    .shape-oval {
+      border-radius: 50px;
+      border: 2.5px solid;
+    }
+
+    .node-blue {
+      background: #e0f2fe;
+      border-color: #0284c7;
+      color: #0369a1;
+    }
+
+    .node-saffron {
+      background: #ffedd5;
+      border-color: #ea580c;
+      color: #9a3412;
+      box-shadow: 0 0 16px rgba(234, 88, 12, 0.15);
+    }
+
+    .node-green {
+      background: #dcfce7;
+      border-color: #16a34a;
+      color: #166534;
+    }
+
+    .node-purple {
+      background: #f3e8ff;
+      border-color: #7c3aed;
+      color: #581c87;
+    }
+
+    .node-red {
+      background: #fee2e2;
+      border-color: #dc2626;
+      color: #991b1b;
+      box-shadow: 0 0 16px rgba(220, 38, 38, 0.15);
+    }
+
+    .shape-step-num {
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      opacity: 0.9;
+    }
+
+    .shape-step-title {
+      font-size: 0.95rem;
+      font-weight: 800;
+      line-height: 1.15;
+      margin-top: 0.2rem;
+    }
+
+    /* Connecting Arrows */
+    .arrow-connector {
+      position: absolute;
+      right: -18px;
+      top: 32px;
+      width: 24px;
+      height: 24px;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .arrow-connector svg {
+      width: 100%;
+      height: 100%;
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.15));
+    }
+
+    /* Step Card Details */
+    .step-detail-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1rem 0.85rem;
+      margin-top: 0.85rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    }
+
+    .card-badge {
+      font-size: 0.7rem;
+      font-weight: 800;
+      padding: 0.2rem 0.5rem;
+      border-radius: 5px;
+      display: inline-block;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+    }
+
+    .badge-io { background: #e0f2fe; color: #0284c7; }
+    .badge-crypto { background: #ffedd5; color: #ea580c; }
+    .badge-rbac { background: #dcfce7; color: #16a34a; }
+    .badge-vault { background: #f3e8ff; color: #7c3aed; }
+    .badge-court { background: #fee2e2; color: #dc2626; }
+
+    .step-detail-card ul {
+      list-style: none;
+      padding: 0;
+      font-size: 0.78rem;
+      line-height: 1.45;
+      color: #334155;
+    }
+
+    .step-detail-card ul li {
+      margin-bottom: 0.45rem;
+      position: relative;
+      padding-left: 1.1rem;
+    }
+
+    .step-detail-card ul li::before {
+      content: "•";
+      color: #64748b;
+      font-size: 1.1rem;
+      position: absolute;
+      left: 0.1rem;
+      top: -0.15rem;
+    }
+
+    /* ==========================================================================
+       SLIDE 2: Tiered Multi-Actor System Architecture
+       ========================================================================== */
+    .arch-grid {
+      display: grid;
+      grid-template-columns: 280px 48px 1fr 48px 290px;
+      gap: 0;
+      align-items: center;
+      height: 100%;
+    }
+
+    .actors-column {
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .actor-box {
+      background: #ffffff;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 12px;
+      padding: 0.75rem 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    }
+
+    .actor-icon-oval {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.35rem;
+      flex-shrink: 0;
+    }
+
+    .actor-name {
+      font-size: 0.86rem;
+      font-weight: 700;
+      color: var(--gov-navy);
+      line-height: 1.2;
+    }
+
+    .actor-role-desc {
+      font-size: 0.72rem;
+      color: #64748b;
+      margin-top: 0.15rem;
+    }
+
+    .arch-arrow-block {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .core-system-box {
+      background: #ffffff;
+      border: 2.5px solid var(--gov-navy);
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 10px 30px rgba(0, 34, 102, 0.08);
+      position: relative;
+    }
+
+    .core-header {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--gov-navy);
+      margin-bottom: 0.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .core-subtitle {
+      font-size: 0.78rem;
+      color: #64748b;
+      margin-bottom: 1.1rem;
+    }
+
+    .core-features-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.85rem;
+    }
+
+    .core-feat-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 0.75rem 0.85rem;
+    }
+
+    .feat-title {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--gov-navy);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .feat-desc {
+      font-size: 0.72rem;
+      color: #475569;
+      line-height: 1.35;
+    }
+
+    .storage-column {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .storage-card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 1rem 1.1rem;
+      border: 1.5px solid;
+    }
+
+    .storage-digital {
+      border-color: #0284c7;
+      background: #f0f9ff;
+    }
+
+    .storage-physical {
+      border-color: #7c3aed;
+      background: #faf5ff;
+    }
+
+    .storage-title {
+      font-size: 0.88rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .storage-digital .storage-title { color: #0369a1; }
+    .storage-physical .storage-title { color: #6d28d9; }
+
+    .storage-bullets {
+      list-style: none;
+      font-size: 0.74rem;
+      line-height: 1.45;
+      color: #334155;
+      padding: 0;
+    }
+
+    .storage-bullets li {
+      margin-bottom: 0.3rem;
+      padding-left: 0.9rem;
+      position: relative;
+    }
+
+    .storage-bullets li::before {
+      content: "✔";
+      font-size: 0.65rem;
+      position: absolute;
+      left: 0;
+      color: currentColor;
+    }
+
+    /* ==========================================================================
+       SLIDE 3: Real-Time Tamper Watchdog Decision Flowchart
+       ========================================================================== */
+    .watchdog-flow {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      position: relative;
+    }
+
+    .trigger-rect {
+      background: #f8fafc;
+      border: 2px solid var(--gov-navy);
+      border-radius: 12px;
+      padding: 0.85rem 2rem;
+      text-align: center;
+      width: 520px;
+    }
+
+    .trigger-title {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: var(--gov-navy);
+    }
+
+    .trigger-desc {
+      font-size: 0.78rem;
+      color: #475569;
+      margin-top: 0.2rem;
+    }
+
+    .vertical-arrow-down {
+      width: 32px;
+      height: 38px;
+      margin: 0.4rem 0;
+    }
+
+    /* Decision Diamond Center Container */
+    .decision-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      width: 100%;
+    }
+
+    .decision-diamond {
+      width: 280px;
+      height: 140px;
+      background: #fef3c7;
+      border: 2.5px solid #d97706;
+      border-radius: 16px;
+      transform: rotate(0deg);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 1rem;
+      box-shadow: 0 4px 15px rgba(217, 119, 6, 0.15);
+      position: relative;
+    }
+
+    .diamond-badge {
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: #92400e;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    .diamond-question {
+      font-size: 0.88rem;
+      font-weight: 800;
+      color: #78350f;
+      line-height: 1.25;
+      margin-top: 0.25rem;
+    }
+
+    .outcome-pass-box {
+      width: 300px;
+      background: #dcfce7;
+      border: 2px solid #16a34a;
+      border-radius: 12px;
+      padding: 1rem;
+      color: #14532d;
+    }
+
+    .outcome-title {
+      font-size: 0.92rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .outcome-bullets {
+      list-style: none;
+      padding: 0;
+      font-size: 0.75rem;
+      line-height: 1.45;
+    }
+
+    .outcome-bullets li {
+      padding-left: 1rem;
+      position: relative;
+      margin-bottom: 0.25rem;
+    }
+
+    .outcome-bullets li::before {
+      content: "•";
+      position: absolute;
+      left: 0.2rem;
+    }
+
+    /* Red Alert Callout */
+    .alert-callout-box {
+      width: 100%;
+      max-width: 900px;
+      background: #fef2f2;
+      border: 2px solid #dc2626;
+      border-radius: 12px;
+      padding: 1rem 1.5rem;
+      margin-top: 0.4rem;
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      box-shadow: 0 4px 20px rgba(220, 38, 38, 0.12);
+    }
+
+    .alert-icon-oval {
+      width: 50px;
+      height: 50px;
+      background: #fee2e2;
+      border: 2px solid #dc2626;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      flex-shrink: 0;
+      animation: pulseAlert 1.5s infinite;
+    }
+
+    @keyframes pulseAlert {
+      0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.4); }
+      70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(220, 38, 38, 0); }
+      100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(220, 38, 38, 0); }
+    }
+
+    .alert-title {
+      font-size: 0.98rem;
+      font-weight: 800;
+      color: #991b1b;
+    }
+
+    .alert-details {
+      font-size: 0.78rem;
+      color: #7f1d1d;
+      margin-top: 0.25rem;
+      line-height: 1.4;
+    }
+
+    /* Footer Indicator */
+    .slide-footer {
+      padding: 0.65rem 2.25rem;
+      background: #ffffff;
+      border-top: 1px solid #e2e8f0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.76rem;
+      color: #64748b;
+    }
+
+    .slide-dots {
+      display: flex;
+      gap: 0.4rem;
+    }
+
+    .dot {
+      width: 24px;
+      height: 6px;
+      border-radius: 3px;
+      background: #cbd5e1;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .dot.active {
+      background: var(--gov-saffron);
+      width: 38px;
+    }
+
+    @media print {
+      body { background: #fff; padding: 0; }
+      .top-toolbar { display: none; }
+      .slide-wrapper { box-shadow: none; max-width: 100%; border-radius: 0; page-break-after: always; }
+      .slide-content { display: flex !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Controller Toolbar -->
+  <div class="top-toolbar">
+    <div class="toolbar-title">
+      <span class="badge-sih">SIH 2026</span>
+      <span>National Legal & Investigation Document Repository (NLADR) — Flowchart Deck</span>
+    </div>
+    <div class="nav-btn-group">
+      <button class="btn btn-secondary" onclick="prevSlide()">◀ Previous</button>
+      <span style="font-size: 0.85rem; font-weight: 700;" id="slideIndicator">Slide 1 / 3</span>
+      <button class="btn btn-secondary" onclick="nextSlide()">Next ▶</button>
+      <button class="btn btn-primary" onclick="window.print()">🖨️ Print / Save as PDF</button>
+    </div>
+  </div>
+
+  <!-- 16:9 Presentation Slide Canvas -->
+  <div class="slide-wrapper" id="slideCanvas">
+    <div class="slide-top-stripe"></div>
+
+    <!-- Dynamic Header -->
+    <div class="slide-header">
+      <div>
+        <div class="slide-tag-row">
+          <span>Smart India Hackathon 2026</span>
+          <span class="sep">•</span>
+          <span id="headerCategory">SLIDE 1 OF 3: CLOSED-LOOP PROCESS FLOW</span>
+        </div>
+        <h1 class="slide-title" id="headerTitle">5-Stage Closed-Loop Evidentiary Lifecycle</h1>
+        <p class="slide-subtitle" id="headerSubtitle">Continuous integrity verification from on-scene digital ingestion to physical warehouse indexing & court admissibility</p>
+      </div>
+      <div class="slide-pill">
+        <span>⚖️ Ministry of Law & Justice</span>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         SLIDE 1: 5-Stage Closed-Loop Flowchart
+         ==================================================================== -->
+    <div class="slide-content active" id="slide1">
+      <div class="flow-5-steps">
+
+        <!-- Stage 1 -->
+        <div class="step-column">
+          <div class="shape-node shape-round-rect node-blue">
+            <div class="shape-step-num">STAGE 1</div>
+            <div class="shape-step-title">EVIDENCE<br/>INGESTION</div>
+          </div>
+          <div class="arrow-connector">
+            <svg viewBox="0 0 24 24" fill="#0284c7"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+          </div>
+          <div class="step-detail-card">
+            <span class="card-badge badge-io">Police IO</span>
+            <ul>
+              <li>Logs unalterable case diary under <strong>Sec 173 CrPC / 193 BNSS</strong>.</li>
+              <li>Uploads digital FIR, seizure memos & on-scene videography.</li>
+              <li>Generates initial incident timeline dossier.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Stage 2 -->
+        <div class="step-column">
+          <div class="shape-node shape-oval node-saffron">
+            <div class="shape-step-num">STAGE 2</div>
+            <div class="shape-step-title">SHA-256<br/>HASH LOCK</div>
+          </div>
+          <div class="arrow-connector">
+            <svg viewBox="0 0 24 24" fill="#ea580c"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+          </div>
+          <div class="step-detail-card">
+            <span class="card-badge badge-crypto">Web Crypto Engine</span>
+            <ul>
+              <li>Calculates <strong>256-bit SHA-256</strong> mathematical fingerprint on client.</li>
+              <li>Even a 1-bit alteration changes the checksum completely.</li>
+              <li>Tied to RFC 3161 timestamps and user badge ID in WORM ledger.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Stage 3 -->
+        <div class="step-column">
+          <div class="shape-node shape-round-rect node-green">
+            <div class="shape-step-num">STAGE 3</div>
+            <div class="shape-step-title">CUSTODY<br/>ROUTING</div>
+          </div>
+          <div class="arrow-connector">
+            <svg viewBox="0 0 24 24" fill="#16a34a"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+          </div>
+          <div class="step-detail-card">
+            <span class="card-badge badge-rbac">Zero-Trust Chain</span>
+            <ul>
+              <li>Transfer between <strong>Police IO ➔ CFSL Lab ➔ Public Prosecutor</strong>.</li>
+              <li>Instant checksum recalculation at each receiving node.</li>
+              <li>Eliminates physical dossier tampering and evidence loss.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Stage 4 -->
+        <div class="step-column">
+          <div class="shape-node shape-round-rect node-purple">
+            <div class="shape-step-num">STAGE 4</div>
+            <div class="shape-step-title">DUAL-VAULT<br/>ARCHIVAL</div>
+          </div>
+          <div class="arrow-connector">
+            <svg viewBox="0 0 24 24" fill="#7c3aed"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+          </div>
+          <div class="step-detail-card">
+            <span class="card-badge badge-vault">Spatial Locator</span>
+            <ul>
+              <li>Binds digital record directly to physical warehouse location.</li>
+              <li>Tracks <strong>Vault Number, Rack ID, Shelf Label & Barcode</strong>.</li>
+              <li>Monitors physical tamper-seal verification status.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Stage 5 -->
+        <div class="step-column">
+          <div class="shape-node shape-oval node-red">
+            <div class="shape-step-num">STAGE 5</div>
+            <div class="shape-step-title">JUDICIAL<br/>ADMISSION</div>
+          </div>
+          <div class="step-detail-card">
+            <span class="card-badge badge-court">Court Admissibility</span>
+            <ul>
+              <li>Automated generation of statutory <strong>Sec 63 BSA / 65B IEA certificates</strong>.</li>
+              <li>Prima facie admissible in Hon'ble Trial Court without contest.</li>
+              <li>Reduces trial procedural latency from 28 days to 1.2 seconds.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         SLIDE 2: Tiered Multi-Actor System Architecture
+         ==================================================================== -->
+    <div class="slide-content" id="slide2">
+      <div class="arch-grid">
+
+        <!-- Column 1: Sovereign Client Actors (Ovals & Boxes) -->
+        <div class="actors-column">
+          <div class="actor-box">
+            <div class="actor-icon-oval" style="background:#e0f2fe; color:#0284c7;">👮</div>
+            <div>
+              <div class="actor-name">Police IO</div>
+              <div class="actor-role-desc">FIRs, Case Diaries, Seizures</div>
+            </div>
+          </div>
+
+          <div class="actor-box">
+            <div class="actor-icon-oval" style="background:#ffedd5; color:#ea580c;">🔬</div>
+            <div>
+              <div class="actor-name">Forensic CFSL Analyst</div>
+              <div class="actor-role-desc">Ballistics & Digital Hash Matching</div>
+            </div>
+          </div>
+
+          <div class="actor-box">
+            <div class="actor-icon-oval" style="background:#dcfce7; color:#16a34a;">⚖️</div>
+            <div>
+              <div class="actor-name">Public Prosecutor</div>
+              <div class="actor-role-desc">Charge Sheet Scrutiny & Trial Lists</div>
+            </div>
+          </div>
+
+          <div class="actor-box">
+            <div class="actor-icon-oval" style="background:#f3e8ff; color:#7c3aed;">📦</div>
+            <div>
+              <div class="actor-name">Evidence Vault Custodian</div>
+              <div class="actor-role-desc">Vault/Rack Spatial Coordinates</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Arrow Connector -->
+        <div class="arch-arrow-block">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="#002266"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+        </div>
+
+        <!-- Column 2: Central Security & Cryptographic Core -->
+        <div class="core-system-box">
+          <div class="core-header">
+            <span>🔐</span> NLADR Cryptographic & State Gatekeeper
+          </div>
+          <div class="core-subtitle">Zero-Trust Processing Engine & National Coordination Hub</div>
+
+          <div class="core-features-grid">
+            <div class="core-feat-card">
+              <div class="feat-title"><span>🛡️</span> Web Crypto API</div>
+              <div class="feat-desc">Client-side 256-bit SHA-256 calculation preventing unhashed transmission.</div>
+            </div>
+
+            <div class="core-feat-card">
+              <div class="feat-title"><span>👥</span> Dynamic 5-Tier RBAC</div>
+              <div class="feat-desc">Strict jurisdictional filtering masking victim records under DPDP Act 2023.</div>
+            </div>
+
+            <div class="core-feat-card">
+              <div class="feat-title"><span>📜</span> WORM Audit Ledger</div>
+              <div class="feat-desc">Write-Once-Read-Many audit logs tracking actor, IP, timestamp & checksum.</div>
+            </div>
+
+            <div class="core-feat-card">
+              <div class="feat-title"><span>🚨</span> Tamper Watchdog</div>
+              <div class="feat-desc">Continuous background integrity auditor halting dockets upon mismatch.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Arrow Connector -->
+        <div class="arch-arrow-block">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="#002266"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+        </div>
+
+        <!-- Column 3: Dual-Vault Storage System -->
+        <div class="storage-column">
+          <div class="storage-card storage-digital">
+            <div class="storage-title">
+              <span>☁️</span> Digital Sovereign Vault
+            </div>
+            <ul class="storage-bullets">
+              <li>IndexedDB Offline Local Storage</li>
+              <li>LocalStorage Write-Through Sync</li>
+              <li>Vercel Serverless Edge Hosting</li>
+              <li>PostgreSQL 7-Table Relational Schema</li>
+            </ul>
+          </div>
+
+          <div class="storage-card storage-physical">
+            <div class="storage-title">
+              <span>🏢</span> Physical Warehouse Vault
+            </div>
+            <ul class="storage-bullets">
+              <li>Room & Rack Number ID Mapping</li>
+              <li>Shelf Label Spatial Tracking</li>
+              <li>Barcode / RFID Handover Tagging</li>
+              <li>Physical Tamper-Seal Audit Status</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         SLIDE 3: Real-Time Tamper Watchdog Flowchart
+         ==================================================================== -->
+    <div class="slide-content" id="slide3">
+      <div class="watchdog-flow">
+
+        <!-- Trigger Rect -->
+        <div class="trigger-rect">
+          <div class="trigger-title">EVIDENCE ACCESS OR COURT DISPATCH TRIGGER</div>
+          <div class="trigger-desc">User views evidence document, executes custody handover, or submits dossier to Trial Judge</div>
+        </div>
+
+        <!-- Down Arrow -->
+        <div class="vertical-arrow-down">
+          <svg viewBox="0 0 24 24" fill="#002266" width="32" height="38"><path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8z"/></svg>
+        </div>
+
+        <!-- Decision Row (Diamond + Green Pass Box) -->
+        <div class="decision-row">
+          <div class="decision-diamond">
+            <span class="diamond-badge">INTEGRITY AUDIT</span>
+            <div class="diamond-question">Does Current SHA-256 Checksum == Genesis Hash?</div>
+          </div>
+
+          <!-- Arrow Right -->
+          <svg width="40" height="28" viewBox="0 0 24 24" fill="#16a34a"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+
+          <!-- Pass Box -->
+          <div class="outcome-pass-box">
+            <div class="outcome-title">
+              <span>✓</span> 100% Tamper-Proof & Authentic
+            </div>
+            <ul class="outcome-bullets">
+              <li>Automated Section 63 BSA certificate signed.</li>
+              <li>Instant transmission to Trial Court docket.</li>
+              <li>Uncontested judicial evidence admissibility.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Down Arrow Red -->
+        <div class="vertical-arrow-down">
+          <svg viewBox="0 0 24 24" fill="#dc2626" width="32" height="38"><path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8z"/></svg>
+        </div>
+
+        <!-- Red Alert Callout -->
+        <div class="alert-callout-box">
+          <div class="alert-icon-oval">🚨</div>
+          <div>
+            <div class="alert-title">AUTOMATED MALICIOUS TAMPER QUARANTINE ACTIVATED</div>
+            <div class="alert-details">
+              • <strong>Court Transmission Frozen:</strong> Docket immediately locked to prevent forged evidence entering legal proceedings.<br/>
+              • <strong>Judicial & Police Alerts:</strong> High-priority dispatch with actor identity, IP address & timestamp sent to SP & Presiding Judge.<br/>
+              • <strong>Permanent WORM Trail:</strong> Violation permanently committed to the immutable audit ledger for criminal prosecution.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Slide Footer -->
+    <div class="slide-footer">
+      <div>Department of Legal & Administrative Affairs • National Legal & Investigation Document Repository</div>
+      <div class="slide-dots">
+        <div class="dot active" onclick="goToSlide(1)"></div>
+        <div class="dot" onclick="goToSlide(2)"></div>
+        <div class="dot" onclick="goToSlide(3)"></div>
+      </div>
+      <div>Press <kbd>←</kbd> / <kbd>→</kbd> or use buttons to navigate</div>
+    </div>
+  </div>
+
+  <script>
+    let currentSlide = 1;
+    const totalSlides = 3;
+
+    const slidesMeta = [
+      {
+        category: "SLIDE 1 OF 3: CLOSED-LOOP PROCESS FLOW",
+        title: "5-Stage Closed-Loop Evidentiary Lifecycle",
+        subtitle: "Continuous integrity verification from on-scene digital ingestion to physical warehouse indexing & court admissibility"
+      },
+      {
+        category: "SLIDE 2 OF 3: TIERED SYSTEM ARCHITECTURE",
+        title: "Multi-Tiered System Architecture & Entity Flow",
+        subtitle: "Sovereign client actors, cryptographic core gatekeeper, and physical-digital dual vault synchronization"
+      },
+      {
+        category: "SLIDE 3 OF 3: TAMPER WATCHDOG & SECURITY",
+        title: "Real-Time Watchdog & Malicious Tamper Quarantine",
+        subtitle: "Automated checksum validation decision tree, instant quarantine lockout, and judicial alert dispatch"
+      }
+    ];
+
+    function updateSlide() {
+      // Hide all slides
+      document.querySelectorAll('.slide-content').forEach(s => s.classList.remove('active'));
+      document.querySelectorAll('.dot').forEach(d => d.classList.remove('active'));
+
+      // Show active slide
+      document.getElementById('slide' + currentSlide).classList.add('active');
+      document.querySelectorAll('.dot')[currentSlide - 1].classList.add('active');
+
+      // Update Header Text
+      const meta = slidesMeta[currentSlide - 1];
+      document.getElementById('headerCategory').textContent = meta.category;
+      document.getElementById('headerTitle').textContent = meta.title;
+      document.getElementById('headerSubtitle').textContent = meta.subtitle;
+      document.getElementById('slideIndicator').textContent = `Slide ${currentSlide} / ${totalSlides}`;
+    }
+
+    function nextSlide() {
+      if (currentSlide < totalSlides) {
+        currentSlide++;
+        updateSlide();
+      }
+    }
+
+    function prevSlide() {
+      if (currentSlide > 1) {
+        currentSlide--;
+        updateSlide();
+      }
+    }
+
+    function goToSlide(n) {
+      currentSlide = n;
+      updateSlide();
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ') {
+        nextSlide();
+      } else if (e.key === 'ArrowLeft') {
+        prevSlide();
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr>
+      <p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/><a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>
+
+            <!-- Top Saffron Banner Bar -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="101" name="BannerTop"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="0" y="0"/><a:ext cx="12192000" cy="90000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="EA580C"/></a:solidFill>
+        </p:spPr>
+      </p:sp>
+
+      <!-- Slide Header Text Box -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="102" name="HeaderBox"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="240000"/><a:ext cx="10992000" cy="850000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:noFill/>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/><a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="EA580C"/></a:solidFill></a:rPr>
+              <a:t>NLADR PLATFORM ARCHITECTURE</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr sz="1100"><a:solidFill><a:srgbClr val="64748B"/></a:solidFill></a:rPr>
+              <a:t>  |  FLOWCHART DECK  |  SLIDE 1 OF 3: CLOSED-LOOP LIFECYCLE</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" marR="0" indent="0"/>
+            <a:r>
+              <a:rPr sz="2200" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr>
+              <a:t>End-to-End Evidence Lifecycle Flowchart</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" marR="0" indent="0"/>
+            <a:r>
+              <a:rPr sz="1100" i="1"><a:solidFill><a:srgbClr val="475569"/></a:solidFill></a:rPr>
+              <a:t>Sequential flow from on-scene digital ingestion to cryptographic locking, custody transfer &amp; court admissibility</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- Divider Line -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="103" name="Divider"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="1120000"/><a:ext cx="10992000" cy="25000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="CBD5E1"/></a:solidFill>
+        </p:spPr>
+      </p:sp>
+
+      <!-- STEP 1: Ingestion (Rounded Rectangle) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="201" name="Step1_Shape"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="750000" y="1450000"/><a:ext cx="1650000" cy="1150000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 2500"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="E0F2FE"/></a:solidFill>
+          <a:ln w="25400"><a:solidFill><a:srgbClr val="0284C7"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/><a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r><a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="0369A1"/></a:solidFill></a:rPr><a:t>STEP 1</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r><a:rPr sz="1350" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr><a:t>EVIDENCE&#10;INGESTION</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- Arrow 1 -> 2 (Right Arrow) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="202" name="Arrow1"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="2480000" y="1850000"/><a:ext cx="460000" cy="350000"/></a:xfrm>
+          <a:prstGeom prst="rightArrow"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="0284C7"/></a:solidFill>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+
+      <!-- STEP 2: Cryptographic Hashing (Oval / Ellipse) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="203" name="Step2_Shape"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="3020000" y="1350000"/><a:ext cx="1650000" cy="1350000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="FFEDD5"/></a:solidFill>
+          <a:ln w="28000"><a:solidFill><a:srgbClr val="EA580C"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/><a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r><a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="C2410C"/></a:solidFill></a:rPr><a:t>STEP 2</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r><a:rPr sz="1350" b="1"><a:solidFill><a:srgbClr val="9A3412"/></a:solidFill></a:rPr><a:t>SHA-256&#10;DIGEST LOCK</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- Arrow 2 -> 3 (Right Arrow) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="204" name="Arrow2"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="4750000" y="1850000"/><a:ext cx="460000" cy="350000"/></a:xfrm>
+          <a:prstGeom prst="rightArrow"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="EA580C"/></a:solidFill>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+
+      <!-- STEP 3: Custody Routing (Rounded Rectangle) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="205" name="Step3_Shape"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="5290000" y="1450000"/><a:ext cx="1650000" cy="1150000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 2500"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="DCFCE7"/></a:solidFill>
+          <a:ln w="25400"><a:solidFill><a:srgbClr val="16A34A"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/><a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r><a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="15803D"/></a:solidFill></a:rPr><a:t>STEP 3</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r><a:rPr sz="1350" b="1"><a:solidFill><a:srgbClr val="166534"/></a:solidFill></a:rPr><a:t>CUSTODY&#10;ROUTING</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- Arrow 3 -> 4 (Right Arrow) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="206" name="Arrow3"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="7020000" y="1850000"/><a:ext cx="460000" cy="350000"/></a:xfrm>
+          <a:prstGeom prst="rightArrow"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="16A34A"/></a:solidFill>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+
+      <!-- STEP 4: Dual Vault (Rounded Rectangle) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="207" name="Step4_Shape"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="7560000" y="1450000"/><a:ext cx="1650000" cy="1150000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 2500"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="F3E8FF"/></a:solidFill>
+          <a:ln w="25400"><a:solidFill><a:srgbClr val="7C3AED"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/><a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r><a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="6D28D9"/></a:solidFill></a:rPr><a:t>STEP 4</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r><a:rPr sz="1350" b="1"><a:solidFill><a:srgbClr val="4C1D95"/></a:solidFill></a:rPr><a:t>DUAL-VAULT&#10;ARCHIVAL</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- Arrow 4 -> 5 (Right Arrow) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="208" name="Arrow4"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="9290000" y="1850000"/><a:ext cx="460000" cy="350000"/></a:xfrm>
+          <a:prstGeom prst="rightArrow"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="7C3AED"/></a:solidFill>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+
+      <!-- STEP 5: Court Admissibility (Oval / Ellipse) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="209" name="Step5_Shape"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="9830000" y="1350000"/><a:ext cx="1650000" cy="1350000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="FEF2F2"/></a:solidFill>
+          <a:ln w="28000"><a:solidFill><a:srgbClr val="DC2626"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/><a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r><a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="B91C1C"/></a:solidFill></a:rPr><a:t>STEP 5</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r><a:rPr sz="1350" b="1"><a:solidFill><a:srgbClr val="7F1D1D"/></a:solidFill></a:rPr><a:t>COURT&#10;ADMISSIBILITY</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- DETAIL CARD 1 (Under Step 1) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="211" name="Card1"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="750000" y="2850000"/><a:ext cx="1650000" cy="3400000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 1500"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="F8FAFC"/></a:solidFill>
+          <a:ln w="12700"><a:solidFill><a:srgbClr val="CBD5E1"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="100000" tIns="120000" rIns="100000" bIns="100000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="950" b="1"><a:solidFill><a:srgbClr val="0284C7"/></a:solidFill></a:rPr><a:t>ACTOR: POLICE IO</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:r><a:rPr sz="880"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>â€¢ Logs unalterable case diary entries.&#10;â€¢ Attaches digital seizure memos &amp; FIR dossier.&#10;â€¢ Complies with Sec 173 CrPC / Sec 193 BNSS.</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- DETAIL CARD 2 (Under Step 2) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="212" name="Card2"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="3020000" y="2850000"/><a:ext cx="1650000" cy="3400000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 1500"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="F8FAFC"/></a:solidFill>
+          <a:ln w="12700"><a:solidFill><a:srgbClr val="CBD5E1"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="100000" tIns="120000" rIns="100000" bIns="100000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="950" b="1"><a:solidFill><a:srgbClr val="EA580C"/></a:solidFill></a:rPr><a:t>CORE: WEB CRYPTO</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:r><a:rPr sz="880"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>â€¢ Computes 256-bit SHA-256 client-side fingerprint.&#10;â€¢ 1-bit alteration completely changes digest.&#10;â€¢ Immutable WORM audit trail log created.</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- DETAIL CARD 3 (Under Step 3) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="213" name="Card3"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="5290000" y="2850000"/><a:ext cx="1650000" cy="3400000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 1500"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="F8FAFC"/></a:solidFill>
+          <a:ln w="12700"><a:solidFill><a:srgbClr val="CBD5E1"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="100000" tIns="120000" rIns="100000" bIns="100000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="950" b="1"><a:solidFill><a:srgbClr val="16A34A"/></a:solidFill></a:rPr><a:t>ACCESS: ZERO-TRUST</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:r><a:rPr sz="880"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>â€¢ Handover between Police, CFSL Lab &amp; Prosecutor.&#10;â€¢ Instant hash verification at receipt.&#10;â€¢ Prevents custodial evidence substitution.</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- DETAIL CARD 4 (Under Step 4) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="214" name="Card4"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="7560000" y="2850000"/><a:ext cx="1650000" cy="3400000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 1500"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="F8FAFC"/></a:solidFill>
+          <a:ln w="12700"><a:solidFill><a:srgbClr val="CBD5E1"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="100000" tIns="120000" rIns="100000" bIns="100000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="950" b="1"><a:solidFill><a:srgbClr val="7C3AED"/></a:solidFill></a:rPr><a:t>STORAGE: DUAL-VAULT</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:r><a:rPr sz="880"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>â€¢ Digital file tied to Physical Warehouse ID.&#10;â€¢ Tracks Vault No, Rack ID, Shelf Label.&#10;â€¢ Scannable Barcode &amp; Tamper-Seal logging.</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- DETAIL CARD 5 (Under Step 5) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="215" name="Card5"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="9830000" y="2850000"/><a:ext cx="1650000" cy="3400000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 1500"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="F8FAFC"/></a:solidFill>
+          <a:ln w="12700"><a:solidFill><a:srgbClr val="CBD5E1"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="100000" tIns="120000" rIns="100000" bIns="100000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="950" b="1"><a:solidFill><a:srgbClr val="DC2626"/></a:solidFill></a:rPr><a:t>LEGAL: STATUTORY CERT</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:r><a:rPr sz="880"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>â€¢ Auto-generates Sec 63 BSA / 65B IEA certificates.&#10;â€¢ Accepted by Hon'ble Trial Judge without dispute.&#10;â€¢ Accelerates conviction &amp; disposal rate.</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+    </p:spTree>
+  </p:cSld>
+</p:sld>

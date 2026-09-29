@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr>
+      <p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/><a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>
+
+            <!-- SIH Top Banner Stripe (Tricolor Accent) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="101" name="BannerTop"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="0" y="0"/><a:ext cx="12192000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="EA580C"/></a:solidFill>
+        </p:spPr>
+      </p:sp>
+
+      <!-- SIH Header Box -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="102" name="HeaderBox"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="220000"/><a:ext cx="10992000" cy="850000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:noFill/>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/><a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="EA580C"/></a:solidFill></a:rPr>
+              <a:t>SMART INDIA HACKATHON 2026</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr sz="1100"><a:solidFill><a:srgbClr val="64748B"/></a:solidFill></a:rPr>
+              <a:t>  |  THEME: LEGALTECH &amp; SMART GOVERNANCE  |  SLIDE 2 OF 5: TECHNICAL APPROACH &amp; ARCHITECTURE</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" marR="0" indent="0"/>
+            <a:r>
+              <a:rPr sz="2200" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr>
+              <a:t>Technical Approach, Circular Flow &amp; Technology Stack</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" marR="0" indent="0"/>
+            <a:r>
+              <a:rPr sz="1150" i="1"><a:solidFill><a:srgbClr val="475569"/></a:solidFill></a:rPr>
+              <a:t>5-Stage Closed-Loop Cryptographic Lifecycle with Zero-Trust Multi-Role Coordination</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- SIH Header Divider -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="103" name="Divider"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="1120000"/><a:ext cx="10992000" cy="25000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="CBD5E1"/></a:solidFill>
+        </p:spPr>
+      </p:sp>
+
+      <!-- Circular Flow Diagram Representation (Left Box) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="210" name="CircularFlowBox"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="1250000"/><a:ext cx="5450000" cy="5250000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 1500"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="F8FAFC"/></a:solidFill>
+          <a:ln w="19050"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="200000" tIns="160000" rIns="200000" bIns="160000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="1400" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr><a:t>5-STAGE CLOSED-LOOP EVIDENCE LIFECYCLE FLOW</a:t></a:r>
+          </a:p>
+          <a:p><a:r><a:rPr sz="1000" i="1"><a:solidFill><a:srgbClr val="64748B"/></a:solidFill></a:rPr><a:t>Continuous Integrity Verification from Crime Scene to Final Judgment</a:t></a:r></a:p>
+          <a:p>
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="0284C7"/></a:solidFill></a:rPr>
+            <a:t>&#10;STAGE 1: INCIDENT &amp; EVIDENCE INGESTION (Top of Cycle)</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="1E293B"/></a:solidFill></a:rPr>
+            <a:t>&#10;â€¢ IO logs Case Diary; uploads seizure memo, FIR, CCTV, audio, forensic lab PDFs.&#10;â€¢ Captures GPS, EXIF device metadata, and timestamp via 256-bit TLS.</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="EA580C"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;STAGE 2: CRYPTOGRAPHIC HASHING (Web Crypto API)</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="1E293B"/></a:solidFill></a:rPr>
+            <a:t>&#10;â€¢ Instant 256-bit SHA-256 fingerprint generated at ingestion.&#10;â€¢ 1-bit alteration completely breaks checksum; bound to RFC 3161 PKI time-stamp.</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="16A34A"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;STAGE 3: ROLE-BASED CUSTODY ROUTING (RBAC Governance)</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="1E293B"/></a:solidFill></a:rPr>
+            <a:t>â€¢ Evidence transitions securely: IO -&gt; Forensic Lab (CFSL) -&gt; Public Prosecutor.&#10;â€¢ Real-time immutable event log tracking actor ID, role, action, and IP address.</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="6D28D9"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;STAGE 4: DUAL-LOCATION VAULT ARCHIVAL (Physical + Cloud)</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="1E293B"/></a:solidFill></a:rPr>
+            <a:t>â€¢ Physical custody record mapped to exact warehouse Vault, Rack &amp; Shelf ID.&#10;â€¢ Barcode/QR generated for evidence lockers; digital files encrypted at rest (AES-256).</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;STAGE 5: JUDICIAL ADMISSIBILITY &amp; TRIAL DISPOSAL (Closing Cycle)</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="1E293B"/></a:solidFill></a:rPr>
+            <a:t>â€¢ Automated generation of Section 63 BSA / Section 65B IEA Certificates.&#10;â€¢ Certified PDF dossier exported directly to e-Courts Judicial Cause List.</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- Right Column: Technologies & Pictorial Multi-Role Workflow -->
+      <!-- Box 1: Technologies Used -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="211" name="TechStackBox"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="6250000" y="1250000"/><a:ext cx="5342000" cy="2550000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 2000"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="EFF6FF"/></a:solidFill>
+          <a:ln w="19050"><a:solidFill><a:srgbClr val="38BDF8"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="180000" tIns="140000" rIns="180000" bIns="140000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="1300" b="1"><a:solidFill><a:srgbClr val="0369A1"/></a:solidFill></a:rPr><a:t>[&lt;/&gt;] TECHNOLOGIES USED &amp; ARCHITECTURAL STACK</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:r><a:rPr sz="1020"><a:solidFill><a:srgbClr val="1E293B"/></a:solidFill></a:rPr>
+            <a:t>â€¢ Frontend &amp; UI: Semantic HTML5, CSS3 Gov Theme, Vanilla ES6+ Modular State Engine (Zero heavyweight runtime, instant &lt;800ms load).&#10;â€¢ Cryptography &amp; Security: Native Web Crypto API (SHA-256), FIPS 180-4, RFC 3161 PKI, 256-bit TLS in transit, AES-256 at rest.&#10;â€¢ Compliance &amp; Standards: GIGW 3.0 Accessible Indian Gov Website Guidelines, ISO 27001, DPDP Act 2023.&#10;â€¢ Cloud &amp; Offline Storage: Vercel Serverless Edge, IndexedDB local encrypted cache (offline-resilient for rural police stations).</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- Box 2: Pictorial Persona Representation -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="212" name="PersonaBox"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="6250000" y="3950000"/><a:ext cx="5342000" cy="2550000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 2000"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="F8FAFC"/></a:solidFill>
+          <a:ln w="19050"><a:solidFill><a:srgbClr val="CBD5E1"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="180000" tIns="140000" rIns="180000" bIns="140000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="1300" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr><a:t>[ðŸ‘¥] PICTORIAL MULTI-ROLE COORDINATION WORKFLOW</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:r><a:rPr sz="1000"><a:solidFill><a:srgbClr val="1E293B"/></a:solidFill></a:rPr>
+            <a:t>â€¢ [Admin]: Oversees security locks, manages user credentials, monitors audit trail.&#10;â€¢ [Investigator]: Records case diary entries, hashes digital seizures, logs witnesses.&#10;â€¢ [Legal Officer]: Scrutinizes chargesheets, generates Section 63 BSA certificates, manages trial hearings.&#10;â€¢ [Record Custodian]: Manages physical evidence lockers, vault coordinates, QR scans.&#10;â€¢ [Citizen]: Tracks FIR procedural milestones; downloads certified acknowledgement PDF via DigiLocker.</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+    </p:spTree>
+  </p:cSld>
+</p:sld>

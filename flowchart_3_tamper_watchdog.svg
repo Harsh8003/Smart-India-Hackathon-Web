@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <style>
+      .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 26px; font-weight: 800; fill: #002266; }
+      .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #475569; }
+      .badge-tag { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; font-weight: 800; fill: #ea580c; letter-spacing: 0.5px; }
+      .trigger-h { font-family: 'Segoe UI', Arial, sans-serif; font-size: 15px; font-weight: 800; fill: #002266; }
+      .trigger-p { font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; fill: #475569; }
+      .dia-tag { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; font-weight: 800; fill: #92400e; letter-spacing: 0.5px; }
+      .dia-h { font-family: 'Segoe UI', Arial, sans-serif; font-size: 16px; font-weight: 800; fill: #78350f; }
+      .pass-h { font-family: 'Segoe UI', Arial, sans-serif; font-size: 15px; font-weight: 800; fill: #166534; }
+      .pass-li { font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; fill: #14532d; }
+      .alert-h { font-family: 'Segoe UI', Arial, sans-serif; font-size: 16px; font-weight: 800; fill: #991b1b; }
+      .alert-p { font-family: 'Segoe UI', Arial, sans-serif; font-size: 12.5px; fill: #7f1d1d; }
+    </style>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="#ffffff" rx="16"/>
+
+  <!-- Top Tricolor Accent Bar -->
+  <rect x="0" y="0" width="400" height="6" fill="#ea580c"/>
+  <rect x="400" y="0" width="400" height="6" fill="#f8fafc"/>
+  <rect x="800" y="0" width="400" height="6" fill="#16a34a"/>
+
+  <!-- Header -->
+  <text x="60" y="48" class="badge-tag">SMART INDIA HACKATHON 2026 • SECURITY &amp; TAMPER WATCHDOG</text>
+  <text x="60" y="82" class="title">Integrity Watchdog &amp; Malicious Tamper Quarantine Decision Flowchart</text>
+  <text x="60" y="108" class="subtitle">Automated checksum recalculation, instant quarantine lockout, and high-priority judicial alert dispatch</text>
+  <line x1="60" y1="126" x2="1140" y2="126" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- 1. Top Trigger Box -->
+  <rect x="330" y="150" width="540" height="80" rx="14" fill="#f8fafc" stroke="#002266" stroke-width="2" filter="url(#shadow)"/>
+  <text x="600" y="184" text-anchor="middle" class="trigger-h">EVIDENCE ACCESS OR COURT DISPATCH TRIGGER</text>
+  <text x="600" y="208" text-anchor="middle" class="trigger-p">User views evidence, performs custody handover, or submits dossier to Trial Judge</text>
+
+  <!-- Down Arrow 1 -->
+  <path d="M 600 236 L 600 270 M 590 260 L 600 272 L 610 260" stroke="#002266" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- 2. Decision Diamond Container (Rhombus) -->
+  <polygon points="600,285 790,365 600,445 410,365" fill="#fef3c7" stroke="#d97706" stroke-width="3" filter="url(#shadow)"/>
+  <text x="600" y="348" text-anchor="middle" class="dia-tag">INTEGRITY AUDIT WATCHDOG</text>
+  <text x="600" y="372" text-anchor="middle" class="dia-h">Does Current SHA-256 Checksum</text>
+  <text x="600" y="394" text-anchor="middle" class="dia-h">== Genesis Ledger Hash?</text>
+
+  <!-- Branch YES -> Green Arrow Right -->
+  <path d="M 795 365 L 850 365 M 840 355 L 852 365 L 840 375" stroke="#16a34a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <rect x="805" y="338" width="34" height="20" rx="4" fill="#16a34a"/>
+  <text x="822" y="352" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="800" fill="#ffffff">YES</text>
+
+  <!-- Outcome Box: PASS (Green) -->
+  <rect x="865" y="295" width="275" height="140" rx="14" fill="#dcfce7" stroke="#16a34a" stroke-width="2.5" filter="url(#shadow)"/>
+  <text x="885" y="328" class="pass-h">✓ 100% INTACT &amp; UNCONTESTED</text>
+  <text x="885" y="356" class="pass-li">
+    <tspan x="885" dy="0">• Section 63 BSA certificate signed.</tspan>
+    <tspan x="885" dy="24">• Instant transfer to Court docket.</tspan>
+    <tspan x="885" dy="24">• Prima facie judicial admissibility.</tspan>
+  </text>
+
+  <!-- Branch NO -> Red Arrow Down -->
+  <path d="M 600 450 L 600 495 M 590 485 L 600 497 L 610 485" stroke="#dc2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <rect x="612" y="460" width="30" height="20" rx="4" fill="#dc2626"/>
+  <text x="627" y="474" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="800" fill="#ffffff">NO</text>
+
+  <!-- 3. Red Alert Callout Box -->
+  <rect x="120" y="505" width="960" height="135" rx="16" fill="#fef2f2" stroke="#dc2626" stroke-width="2.5" filter="url(#shadow)"/>
+  
+  <!-- Alert Icon Oval -->
+  <circle cx="180" cy="572" r="32" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="180" y="582" text-anchor="middle" font-size="28">🚨</text>
+
+  <!-- Alert Text -->
+  <text x="235" y="546" class="alert-h">AUTOMATED MALICIOUS TAMPER QUARANTINE ACTIVATED</text>
+  <text x="235" y="574" class="alert-p">
+    <tspan x="235" dy="0">• <tspan font-weight="800">Court Transmission Frozen:</tspan> Docket immediately quarantined to prevent forged evidence entering trial proceedings.</tspan>
+    <tspan x="235" dy="24">• <tspan font-weight="800">Emergency Judicial Alert:</tspan> High-priority alert with actor identity, IP address &amp; timestamp dispatched to SP &amp; Trial Judge.</tspan>
+    <tspan x="235" dy="24">• <tspan font-weight="800">Permanent WORM Audit Trail:</tspan> Tampering violation irreversibly committed into the audit ledger for criminal prosecution.</tspan>
+  </text>
+
+</svg>

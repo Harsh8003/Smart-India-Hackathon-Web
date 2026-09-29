@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvPr>
+      <p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/><a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>
+
+            <!-- SIH Top Banner Stripe (Tricolor Accent) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="101" name="BannerTop"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="0" y="0"/><a:ext cx="12192000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="EA580C"/></a:solidFill>
+        </p:spPr>
+      </p:sp>
+
+      <!-- SIH Header Box -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="102" name="HeaderBox"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="220000"/><a:ext cx="10992000" cy="850000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:noFill/>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/><a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="EA580C"/></a:solidFill></a:rPr>
+              <a:t>SMART INDIA HACKATHON 2026</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr sz="1100"><a:solidFill><a:srgbClr val="64748B"/></a:solidFill></a:rPr>
+              <a:t>  |  THEME: LEGALTECH &amp; SMART GOVERNANCE  |  SLIDE 4 OF 5: IMPACTS, LIMITATIONS VS PERKS &amp; SAFETY</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" marR="0" indent="0"/>
+            <a:r>
+              <a:rPr sz="2200" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr>
+              <a:t>System Impacts, Limitations vs. Perks &amp; Safety Safeguards</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" marR="0" indent="0"/>
+            <a:r>
+              <a:rPr sz="1150" i="1"><a:solidFill><a:srgbClr val="475569"/></a:solidFill></a:rPr>
+              <a:t>Comparative Benchmark Against Legacy Paper Systems with Real-Time Intrusion Alerts</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- SIH Header Divider -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="103" name="Divider"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="1120000"/><a:ext cx="10992000" cy="25000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="CBD5E1"/></a:solidFill>
+        </p:spPr>
+      </p:sp>
+
+      <!-- Comparative Limitations vs Perks (Left Box) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="410" name="CompBox"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="1250000"/><a:ext cx="5450000" cy="5250000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 1500"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="F8FAFC"/></a:solidFill>
+          <a:ln w="19050"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="200000" tIns="160000" rIns="200000" bIns="160000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="1400" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr><a:t>BENCHMARK: LEGACY PAPER LIMITATIONS VS. NLADR PERKS</a:t></a:r>
+          </a:p>
+          <a:p><a:r><a:rPr sz="1000" i="1"><a:solidFill><a:srgbClr val="64748B"/></a:solidFill></a:rPr><a:t>Rigorous Performance Comparison Across Critical Justice Delivery Metrics</a:t></a:r></a:p>
+          <a:p>
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr>
+            <a:t>&#10;1. DOCKET RETRIEVAL &amp; TRANSIT LATENCY</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="DC2626"/></a:solidFill></a:rPr><a:t>&#10;â€¢ Legacy Paper: 14 to 28 Days </a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="475569"/></a:solidFill></a:rPr><a:t>(Manual record clerk search, physical courier)</a:t></a:r>
+            <a:r><a:rPr sz="980" b="1"><a:solidFill><a:srgbClr val="16A34A"/></a:solidFill></a:rPr><a:t>&#10;â€¢ NLADR Portal: &lt; 1.2 Seconds </a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="15803D"/></a:solidFill></a:rPr><a:t>[99.9% ACCELERATION VIA INDEXED SEARCH]</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;2. TAMPER VULNERABILITY &amp; INTEGRITY</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="DC2626"/></a:solidFill></a:rPr><a:t>&#10;â€¢ Legacy Paper: Extremely High </a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="475569"/></a:solidFill></a:rPr><a:t>(Page substitution, fire, pest damage, ink fade)</a:t></a:r>
+            <a:r><a:rPr sz="980" b="1"><a:solidFill><a:srgbClr val="16A34A"/></a:solidFill></a:rPr><a:t>&#10;â€¢ NLADR Portal: Cryptographically Immune </a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="15803D"/></a:solidFill></a:rPr><a:t>[1-BIT MODIFICATION BREAKS HASH]</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;3. CHAIN-OF-CUSTODY AUDIT TRAIL</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="DC2626"/></a:solidFill></a:rPr><a:t>&#10;â€¢ Legacy Paper: Fragile Hand-Signed Registers </a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="475569"/></a:solidFill></a:rPr><a:t>(Frequently unverified in court)</a:t></a:r>
+            <a:r><a:rPr sz="980" b="1"><a:solidFill><a:srgbClr val="16A34A"/></a:solidFill></a:rPr><a:t>&#10;â€¢ NLADR Portal: 100% Immutable Digital Ledger </a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="15803D"/></a:solidFill></a:rPr><a:t>[ACTOR, ROLE, IP &amp; TIMESTAMP]</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;4. ADMINISTRATIVE COST PER CASE</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="DC2626"/></a:solidFill></a:rPr><a:t>&#10;â€¢ Legacy Paper: ~â‚¹4,500 / Case </a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="475569"/></a:solidFill></a:rPr><a:t>(Physical materials, vehicle transit, warehousing)</a:t></a:r>
+            <a:r><a:rPr sz="980" b="1"><a:solidFill><a:srgbClr val="16A34A"/></a:solidFill></a:rPr><a:t>&#10;â€¢ NLADR Portal: ~â‚¹35 / Case </a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="15803D"/></a:solidFill></a:rPr><a:t>[93% COST REDUCTION VIA SERVERLESS ARCHITECTURE]</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- Right Column: Safety, Visibility & Alert Flowchart -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="411" name="SafetyBox"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="6250000" y="1250000"/><a:ext cx="5342000" cy="5250000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 1500"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="F8FAFC"/></a:solidFill>
+          <a:ln w="19050"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="200000" tIns="160000" rIns="200000" bIns="160000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="1400" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr><a:t>ALERTS, SAFETY &amp; VISIBILITY PIPELINE FLOWCHART</a:t></a:r>
+          </a:p>
+          <a:p><a:r><a:rPr sz="1000" i="1"><a:solidFill><a:srgbClr val="64748B"/></a:solidFill></a:rPr><a:t>Automated Real-Time Breach Detection &amp; Transparency Governance</a:t></a:r></a:p>
+          <a:p>
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="0284C7"/></a:solidFill></a:rPr>
+            <a:t>&#10;[1] SECURE INGESTION GATEWAY</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;â€¢ File uploaded via TLS 1.3; device metadata &amp; IO token captured.</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="EA580C"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;[2] CRYPTOGRAPHIC INTEGRITY ENGINE</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;â€¢ SHA-256 hash calculated &amp; locked into immutable audit trail.</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="16A34A"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;[3] ROLE-SCOPED VISIBILITY GATE</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;â€¢ IO sees assigned case; Prosecutor views trial exhibits; Citizen sees redacted status.</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="DC2626"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;[4] AUTONOMOUS TAMPER WATCHDOG &amp; EMERGENCY ALERTS</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;â€¢ Background service continuously recalculates hashes against locked digests.&#10;â€¢ ON BREACH ATTEMPT: System instantly freezes docket, triggers SMS/email alert to Superintendent of Police &amp; Learned Trial Magistrate, and flags file as Quarantined.</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;[5] PERMANENT AUDIT LEDGER (WORM COMPLIANCE)</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;â€¢ Write-Once-Read-Many logging; every view, export, and transfer recorded permanently.</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+    </p:spTree>
+  </p:cSld>
+</p:sld>

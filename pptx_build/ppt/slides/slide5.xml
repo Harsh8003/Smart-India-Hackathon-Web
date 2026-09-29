@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvPr>
+      <p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/><a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>
+
+            <!-- SIH Top Banner Stripe (Tricolor Accent) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="101" name="BannerTop"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="0" y="0"/><a:ext cx="12192000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="EA580C"/></a:solidFill>
+        </p:spPr>
+      </p:sp>
+
+      <!-- SIH Header Box -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="102" name="HeaderBox"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="220000"/><a:ext cx="10992000" cy="850000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:noFill/>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/><a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="EA580C"/></a:solidFill></a:rPr>
+              <a:t>SMART INDIA HACKATHON 2026</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr sz="1100"><a:solidFill><a:srgbClr val="64748B"/></a:solidFill></a:rPr>
+              <a:t>  |  THEME: LEGALTECH &amp; SMART GOVERNANCE  |  SLIDE 5 OF 5: RESEARCH, REFERENCES &amp; VERIFIED LINKS</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" marR="0" indent="0"/>
+            <a:r>
+              <a:rPr sz="2200" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr>
+              <a:t>Statutory Research, Legal References &amp; Tracking Links</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" marR="0" indent="0"/>
+            <a:r>
+              <a:rPr sz="1150" i="1"><a:solidFill><a:srgbClr val="475569"/></a:solidFill></a:rPr>
+              <a:t>Anchored in Bharatiya Legal Reforms, Landmark Supreme Court Precedents &amp; Open Source</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- SIH Header Divider -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="103" name="Divider"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="1120000"/><a:ext cx="10992000" cy="25000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="CBD5E1"/></a:solidFill>
+        </p:spPr>
+      </p:sp>
+
+      <!-- Statutory Citations & Legal Standards (Left Box) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="510" name="ResearchBox"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="1250000"/><a:ext cx="5450000" cy="5250000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 1500"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="F8FAFC"/></a:solidFill>
+          <a:ln w="19050"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="200000" tIns="160000" rIns="200000" bIns="160000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="1400" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr><a:t>STATUTORY LEGAL RESEARCH &amp; JUDICIAL PRECEDENTS</a:t></a:r>
+          </a:p>
+          <a:p><a:r><a:rPr sz="1000" i="1"><a:solidFill><a:srgbClr val="64748B"/></a:solidFill></a:rPr><a:t>Rigorous Legal Anchors Ensuring Full Court Admissibility</a:t></a:r></a:p>
+          <a:p>
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr>
+            <a:t>&#10;1. Bharatiya Sakshya Adhiniyam, 2023 (BSA)</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;â€¢ Section 61 &amp; 62: Legal recognition of electronic records as primary/secondary evidence.&#10;â€¢ Section 63: Mandatory statutory certificate for electronic record admissibility.</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="0284C7"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;2. Supreme Court of India Landmark Ruling</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;â€¢ Arjun Panditrao Khotkar v. Kailash Kushanrao Gorantyal (2020) 7 SCC 1: 3-Judge Bench established Section 65B(4) electronic certificate as mandatory condition precedent.</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="EA580C"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;3. Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;â€¢ Section 105: Mandatory audio-video recording of search and seizure operations.&#10;â€¢ Section 173 &amp; 193: Electronic submission of police investigation reports to Magistrates.</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="16A34A"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;4. Data Privacy &amp; Global Cyber Standards</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;â€¢ DPDP Act 2023 &amp; IT Act 2000 (Section 4): Citizen privacy, redaction, and legal validity.&#10;â€¢ NIST SP 800-88 &amp; ISO/IEC 27001: Media sanitization and evidence security management.</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- Right Column: Research Methodology Flowchart & Verified Links -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="511" name="MethodBox"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="6250000" y="1250000"/><a:ext cx="5342000" cy="5250000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 1500"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="F8FAFC"/></a:solidFill>
+          <a:ln w="19050"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="200000" tIns="160000" rIns="200000" bIns="160000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="1400" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr><a:t>RESEARCH METHODOLOGY FLOWCHART &amp; VERIFIED LINKS</a:t></a:r>
+          </a:p>
+          <a:p><a:r><a:rPr sz="1000" i="1"><a:solidFill><a:srgbClr val="64748B"/></a:solidFill></a:rPr><a:t>Systematic Engineering from Legal Research to Live Production</a:t></a:r></a:p>
+          <a:p>
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="0284C7"/></a:solidFill></a:rPr>
+            <a:t>&#10;STEP 1: Problem Discovery &amp; Field Analysis</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;â€¢ Analyzed NCRB crime records, court cause lists, and custodial evidence loss cases.</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="EA580C"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;STEP 2: Statutory Law Mapping</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;â€¢ Formulated statutory schemas for BNS 2023, BNSS 2023, and Section 63 BSA compliance.</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="16A34A"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;STEP 3: Cryptographic Architecture &amp; Proof of Concept</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;â€¢ Engineered client-side SHA-256 digest engine, RBAC state machine &amp; audit logging.</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="6D28D9"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;STEP 4: Persona Journey Validation &amp; GIGW Bilingual Interface</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;â€¢ Validated 5 discrete workflows: Admin, IO, Prosecutor, Custodian, and Citizen.</a:t></a:r>
+
+            <a:r><a:rPr sz="1050" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;STEP 5: Production Deployment &amp; Verifiable Repositories</a:t></a:r>
+            <a:r><a:rPr sz="980"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;â€¢ Live Cloud Deployment: nation-legal-investigation-document.vercel.app&#10;â€¢ Open Source Code: github.com/soniayush306/NATION-LEGAL-INVESTIGATION-DOCUMENTS&#10;â€¢ e-Courts &amp; ICJS Ready: Standardized JSON schemas for direct national API grid sync.</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+    </p:spTree>
+  </p:cSld>
+</p:sld>

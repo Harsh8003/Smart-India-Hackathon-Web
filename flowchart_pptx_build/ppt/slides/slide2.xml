@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr>
+      <p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/><a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>
+
+            <!-- Top Saffron Banner Bar -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="101" name="BannerTop"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="0" y="0"/><a:ext cx="12192000" cy="90000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="EA580C"/></a:solidFill>
+        </p:spPr>
+      </p:sp>
+
+      <!-- Slide Header Text Box -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="102" name="HeaderBox"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="240000"/><a:ext cx="10992000" cy="850000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:noFill/>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/><a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="EA580C"/></a:solidFill></a:rPr>
+              <a:t>NLADR PLATFORM ARCHITECTURE</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr sz="1100"><a:solidFill><a:srgbClr val="64748B"/></a:solidFill></a:rPr>
+              <a:t>  |  FLOWCHART DECK  |  SLIDE 2 OF 3: TIERED ARCHITECTURE</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" marR="0" indent="0"/>
+            <a:r>
+              <a:rPr sz="2200" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr>
+              <a:t>System Architectural Flow &amp; Entity Relationships</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" marR="0" indent="0"/>
+            <a:r>
+              <a:rPr sz="1100" i="1"><a:solidFill><a:srgbClr val="475569"/></a:solidFill></a:rPr>
+              <a:t>Coordination between Sovereign Client Actors, Cryptographic Core, Dual Vaults &amp; Judicial Output</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- Divider Line -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="103" name="Divider"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="1120000"/><a:ext cx="10992000" cy="25000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="CBD5E1"/></a:solidFill>
+        </p:spPr>
+      </p:sp>
+
+      <!-- SECTION 1 LABEL: CLIENT ACTORS -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="301" name="Sec1Label"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="700000" y="1350000"/><a:ext cx="2700000" cy="400000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:noFill/><a:ln><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr><a:t>1. SOVEREIGN CLIENT ACTORS</a:t></a:r></a:p></p:txBody>
+      </p:sp>
+
+      <!-- ACTOR 1: IO -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="302" name="Actor1"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="700000" y="1800000"/><a:ext cx="2700000" cy="950000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 2000"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="E0F2FE"/></a:solidFill>
+          <a:ln w="19050"><a:solidFill><a:srgbClr val="0284C7"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr" lIns="150000" rIns="150000"/><a:lstStyle/>
+          <a:p><a:r><a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="0369A1"/></a:solidFill></a:rPr><a:t>ðŸ‘® Police Investigating Officer (IO)</a:t></a:r></a:p>
+          <a:p><a:r><a:rPr sz="850"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr><a:t>FIRs, Case Diaries, Crime Scene Seizures</a:t></a:r></a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- ACTOR 2: CFSL Lab -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="303" name="Actor2"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="700000" y="2900000"/><a:ext cx="2700000" cy="950000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 2000"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="FFEDD5"/></a:solidFill>
+          <a:ln w="19050"><a:solidFill><a:srgbClr val="EA580C"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr" lIns="150000" rIns="150000"/><a:lstStyle/>
+          <a:p><a:r><a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="C2410C"/></a:solidFill></a:rPr><a:t>ðŸ”¬ Forensic Analyst (CFSL/FSL)</a:t></a:r></a:p>
+          <a:p><a:r><a:rPr sz="850"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr><a:t>Ballistic, Digital &amp; Chemical Hash Verification</a:t></a:r></a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- ACTOR 3: Prosecutor -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="304" name="Actor3"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="700000" y="4000000"/><a:ext cx="2700000" cy="950000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 2000"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="DCFCE7"/></a:solidFill>
+          <a:ln w="19050"><a:solidFill><a:srgbClr val="16A34A"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr" lIns="150000" rIns="150000"/><a:lstStyle/>
+          <a:p><a:r><a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="15803D"/></a:solidFill></a:rPr><a:t>âš–ï¸ Public Prosecutor / Court</a:t></a:r></a:p>
+          <a:p><a:r><a:rPr sz="850"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr><a:t>Charge Sheet Scrutiny &amp; Sec 63 BSA Exhibits</a:t></a:r></a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- ACTOR 4: Record Officer -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="305" name="Actor4"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="700000" y="5100000"/><a:ext cx="2700000" cy="950000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 2000"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="F3E8FF"/></a:solidFill>
+          <a:ln w="19050"><a:solidFill><a:srgbClr val="7C3AED"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr" lIns="150000" rIns="150000"/><a:lstStyle/>
+          <a:p><a:r><a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="6D28D9"/></a:solidFill></a:rPr><a:t>ðŸ“¦ Evidence Vault Custodian</a:t></a:r></a:p>
+          <a:p><a:r><a:rPr sz="850"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr><a:t>Physical Coordinates, Barcode Scan, Custody Logs</a:t></a:r></a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- Arrow linking Client to Core -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="310" name="ArrowClientCore"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="3550000" y="3650000"/><a:ext cx="650000" cy="450000"/></a:xfrm>
+          <a:prstGeom prst="rightArrow"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="002266"/></a:solidFill>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+
+      <!-- SECTION 2: CENTRAL SECURITY & CRYPTOGRAPHIC CORE -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="320" name="CoreBox"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="4350000" y="1800000"/><a:ext cx="3700000" cy="4250000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 1500"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="FFFFFF"/></a:solidFill>
+          <a:ln w="25400"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="200000" tIns="180000" rIns="200000" bIns="180000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="1300" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr><a:t>2. NLADR SECURITY &amp; LOGIC CORE</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:r><a:rPr sz="950" i="1"><a:solidFill><a:srgbClr val="64748B"/></a:solidFill></a:rPr><a:t>Zero-Trust Sovereign Processing Engine</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:r><a:rPr sz="980" b="1"><a:solidFill><a:srgbClr val="EA580C"/></a:solidFill></a:rPr>
+            <a:t>&#10;ðŸ” Web Crypto API (SHA-256)</a:t></a:r>
+            <a:r><a:rPr sz="920"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;  Calculates 256-bit client-side mathematical digests instantly.</a:t></a:r>
+
+            <a:r><a:rPr sz="980" b="1"><a:solidFill><a:srgbClr val="0284C7"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;ðŸ›¡ï¸ Dynamic 5-Tier RBAC Gatekeeper</a:t></a:r>
+            <a:r><a:rPr sz="920"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;  Restricts unredacted FIR details based on officer jurisdiction.</a:t></a:r>
+
+            <a:r><a:rPr sz="980" b="1"><a:solidFill><a:srgbClr val="16A34A"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;ðŸ“œ WORM Audit Ledger Semantics</a:t></a:r>
+            <a:r><a:rPr sz="920"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;  Write-Once-Read-Many logging with IP, timestamp &amp; badge tags.</a:t></a:r>
+
+            <a:r><a:rPr sz="980" b="1"><a:solidFill><a:srgbClr val="DC2626"/></a:solidFill></a:rPr>
+            <a:t>&#10;&#10;ðŸš¨ Real-Time Tamper Watchdog</a:t></a:r>
+            <a:r><a:rPr sz="920"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>&#10;  Continuous integrity auditor halting dockets upon mismatch.</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- Arrows linking Core to Storage -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="325" name="ArrowCoreToTop"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="8200000" y="2450000"/><a:ext cx="550000" cy="350000"/></a:xfrm>
+          <a:prstGeom prst="rightArrow"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="0284C7"/></a:solidFill>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="326" name="ArrowCoreToBottom"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="8200000" y="4750000"/><a:ext cx="550000" cy="350000"/></a:xfrm>
+          <a:prstGeom prst="rightArrow"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="7C3AED"/></a:solidFill>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+
+      <!-- SECTION 3: DUAL VAULT ARCHIVAL -->
+      <!-- TOP VAULT: DIGITAL LOCKER -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="330" name="DigitalVault"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="8900000" y="1800000"/><a:ext cx="2600000" cy="1950000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 2000"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="F0F9FF"/></a:solidFill>
+          <a:ln w="22000"><a:solidFill><a:srgbClr val="0284C7"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="140000" tIns="140000" rIns="140000" bIns="140000"/><a:lstStyle/>
+          <a:p><a:r><a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="0369A1"/></a:solidFill></a:rPr><a:t>3A. DIGITAL CLOUD VAULT</a:t></a:r></a:p>
+          <a:p>
+            <a:r><a:rPr sz="900"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>â€¢ IndexedDB Offline Storage&#10;â€¢ LocalStorage Sync Cache&#10;â€¢ Vercel Edge Serverless Cloud&#10;â€¢ PostgreSQL Relational Tables</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- BOTTOM VAULT: PHYSICAL WAREHOUSE -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="331" name="PhysicalVault"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="8900000" y="4100000"/><a:ext cx="2600000" cy="1950000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 2000"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="FAF5FF"/></a:solidFill>
+          <a:ln w="22000"><a:solidFill><a:srgbClr val="7C3AED"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="140000" tIns="140000" rIns="140000" bIns="140000"/><a:lstStyle/>
+          <a:p><a:r><a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="6D28D9"/></a:solidFill></a:rPr><a:t>3B. PHYSICAL WAREHOUSE</a:t></a:r></a:p>
+          <a:p>
+            <a:r><a:rPr sz="900"><a:solidFill><a:srgbClr val="334155"/></a:solidFill></a:rPr>
+            <a:t>â€¢ Vault Room Identification&#10;â€¢ Rack &amp; Shelf Spatial Mapping&#10;â€¢ Barcode / RFID Tag Validation&#10;â€¢ Tamper-Seal Status Tracking</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+    </p:spTree>
+  </p:cSld>
+</p:sld>

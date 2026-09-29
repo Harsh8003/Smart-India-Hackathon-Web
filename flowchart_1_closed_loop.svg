@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <style>
+      .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 26px; font-weight: 800; fill: #002266; }
+      .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #475569; }
+      .badge-tag { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; font-weight: 800; fill: #ea580c; letter-spacing: 0.5px; }
+      .step-num { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; font-weight: 800; }
+      .step-text { font-family: 'Segoe UI', Arial, sans-serif; font-size: 15px; font-weight: 800; }
+      .card-title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; font-weight: 800; }
+      .card-text { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11.5px; fill: #334155; line-height: 1.4; }
+    </style>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="675" fill="#ffffff" rx="16"/>
+
+  <!-- Top Tricolor Accent Bar -->
+  <rect x="0" y="0" width="400" height="6" fill="#ea580c"/>
+  <rect x="400" y="0" width="400" height="6" fill="#f8fafc"/>
+  <rect x="800" y="0" width="400" height="6" fill="#16a34a"/>
+
+  <!-- Header -->
+  <text x="60" y="48" class="badge-tag">SMART INDIA HACKATHON 2026 • CLOSED-LOOP PROCESS FLOW</text>
+  <text x="60" y="82" class="title">5-Stage Closed-Loop Evidentiary Lifecycle Flowchart</text>
+  <text x="60" y="108" class="subtitle">Continuous integrity verification from on-scene digital ingestion to physical warehouse indexing &amp; court admissibility</text>
+  <line x1="60" y1="126" x2="1140" y2="126" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- ==================== STAGE 1: INGESTION ==================== -->
+  <!-- Rounded Rect Node -->
+  <rect x="60" y="160" width="180" height="100" rx="16" fill="#e0f2fe" stroke="#0284c7" stroke-width="2.5" filter="url(#shadow)"/>
+  <text x="150" y="196" text-anchor="middle" class="step-num" fill="#0369a1">STAGE 1</text>
+  <text x="150" y="222" text-anchor="middle" class="step-text" fill="#002266">EVIDENCE</text>
+  <text x="150" y="242" text-anchor="middle" class="step-text" fill="#002266">INGESTION</text>
+
+  <!-- Arrow 1 -> 2 -->
+  <path d="M 248 210 L 272 210 M 264 202 L 274 210 L 264 218" stroke="#0284c7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Card 1 -->
+  <rect x="60" y="280" width="180" height="340" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="74" y="295" width="85" height="24" rx="6" fill="#e0f2fe"/>
+  <text x="116" y="311" text-anchor="middle" class="card-title" fill="#0284c7">POLICE IO</text>
+  <text x="74" y="348" class="card-text">
+    <tspan x="74" dy="0">• Logs case diary</tspan>
+    <tspan x="84" dy="18">under Sec 173 CrPC</tspan>
+    <tspan x="84" dy="18">/ Sec 193 BNSS.</tspan>
+    <tspan x="74" dy="30">• Uploads digital</tspan>
+    <tspan x="84" dy="18">seizure memos &amp;</tspan>
+    <tspan x="84" dy="18">video evidence.</tspan>
+    <tspan x="74" dy="30">• Timestamped</tspan>
+    <tspan x="84" dy="18">intake log created.</tspan>
+  </text>
+
+  <!-- ==================== STAGE 2: HASH LOCK (OVAL) ==================== -->
+  <!-- Oval Node -->
+  <ellipse cx="375" cy="210" rx="90" ry="52" fill="#ffedd5" stroke="#ea580c" stroke-width="3" filter="url(#shadow)"/>
+  <text x="375" y="196" text-anchor="middle" class="step-num" fill="#c2410c">STAGE 2</text>
+  <text x="375" y="222" text-anchor="middle" class="step-text" fill="#9a3412">SHA-256</text>
+  <text x="375" y="242" text-anchor="middle" class="step-text" fill="#9a3412">DIGEST LOCK</text>
+
+  <!-- Arrow 2 -> 3 -->
+  <path d="M 473 210 L 497 210 M 489 202 L 499 210 L 489 218" stroke="#ea580c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Card 2 -->
+  <rect x="285" y="280" width="180" height="340" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="299" y="295" width="105" height="24" rx="6" fill="#ffedd5"/>
+  <text x="351" y="311" text-anchor="middle" class="card-title" fill="#ea580c">WEB CRYPTO</text>
+  <text x="299" y="348" class="card-text">
+    <tspan x="299" dy="0">• Computes 256-bit</tspan>
+    <tspan x="309" dy="18">SHA-256 digest on</tspan>
+    <tspan x="309" dy="18">client before send.</tspan>
+    <tspan x="299" dy="30">• 1-bit alteration</tspan>
+    <tspan x="309" dy="18">completely changes</tspan>
+    <tspan x="309" dy="18">hash digest.</tspan>
+    <tspan x="299" dy="30">• WORM audit</tspan>
+    <tspan x="309" dy="18">ledger committed.</tspan>
+  </text>
+
+  <!-- ==================== STAGE 3: CUSTODY ROUTING ==================== -->
+  <!-- Rounded Rect Node -->
+  <rect x="510" y="160" width="180" height="100" rx="16" fill="#dcfce7" stroke="#16a34a" stroke-width="2.5" filter="url(#shadow)"/>
+  <text x="600" y="196" text-anchor="middle" class="step-num" fill="#15803d">STAGE 3</text>
+  <text x="600" y="222" text-anchor="middle" class="step-text" fill="#166534">CUSTODY</text>
+  <text x="600" y="242" text-anchor="middle" class="step-text" fill="#166534">ROUTING</text>
+
+  <!-- Arrow 3 -> 4 -->
+  <path d="M 698 210 L 722 210 M 714 202 L 724 210 L 714 218" stroke="#16a34a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Card 3 -->
+  <rect x="510" y="280" width="180" height="340" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="524" y="295" width="105" height="24" rx="6" fill="#dcfce7"/>
+  <text x="576" y="311" text-anchor="middle" class="card-title" fill="#16a34a">ZERO-TRUST</text>
+  <text x="524" y="348" class="card-text">
+    <tspan x="524" dy="0">• Secure transfers:</tspan>
+    <tspan x="534" dy="18">Police ➔ Lab</tspan>
+    <tspan x="534" dy="18">➔ Prosecutor.</tspan>
+    <tspan x="524" dy="30">• Instant hash verify</tspan>
+    <tspan x="534" dy="18">at receiving node.</tspan>
+    <tspan x="524" dy="30">• Eliminates</tspan>
+    <tspan x="534" dy="18">unauthorized page</tspan>
+    <tspan x="534" dy="18">or file swapping.</tspan>
+  </text>
+
+  <!-- ==================== STAGE 4: DUAL VAULT ==================== -->
+  <!-- Rounded Rect Node -->
+  <rect x="735" y="160" width="180" height="100" rx="16" fill="#f3e8ff" stroke="#7c3aed" stroke-width="2.5" filter="url(#shadow)"/>
+  <text x="825" y="196" text-anchor="middle" class="step-num" fill="#6d28d9">STAGE 4</text>
+  <text x="825" y="222" text-anchor="middle" class="step-text" fill="#4c1d95">DUAL-VAULT</text>
+  <text x="825" y="242" text-anchor="middle" class="step-text" fill="#4c1d95">ARCHIVAL</text>
+
+  <!-- Arrow 4 -> 5 -->
+  <path d="M 923 210 L 947 210 M 939 202 L 949 210 L 939 218" stroke="#7c3aed" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Card 4 -->
+  <rect x="735" y="280" width="180" height="340" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="749" y="295" width="115" height="24" rx="6" fill="#f3e8ff"/>
+  <text x="806" y="311" text-anchor="middle" class="card-title" fill="#7c3aed">SPATIAL MAP</text>
+  <text x="749" y="348" class="card-text">
+    <tspan x="749" dy="0">• Digital dockets</tspan>
+    <tspan x="759" dy="18">mapped to physical</tspan>
+    <tspan x="759" dy="18">warehouse space.</tspan>
+    <tspan x="749" dy="30">• Tracks Vault No,</tspan>
+    <tspan x="759" dy="18">Rack ID, Shelf Tag</tspan>
+    <tspan x="759" dy="18">&amp; RFID Barcode.</tspan>
+    <tspan x="749" dy="30">• Tamper-seal status</tspan>
+    <tspan x="759" dy="18">verified in real-time.</tspan>
+  </text>
+
+  <!-- ==================== STAGE 5: COURT ADMISSIBILITY (OVAL) ==================== -->
+  <!-- Oval Node -->
+  <ellipse cx="1050" cy="210" rx="90" ry="52" fill="#fee2e2" stroke="#dc2626" stroke-width="3" filter="url(#shadow)"/>
+  <text x="1050" y="196" text-anchor="middle" class="step-num" fill="#b91c1c">STAGE 5</text>
+  <text x="1050" y="222" text-anchor="middle" class="step-text" fill="#7f1d1d">JUDICIAL</text>
+  <text x="1050" y="242" text-anchor="middle" class="step-text" fill="#7f1d1d">ADMISSION</text>
+
+  <!-- Card 5 -->
+  <rect x="960" y="280" width="180" height="340" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="974" y="295" width="110" height="24" rx="6" fill="#fee2e2"/>
+  <text x="1029" y="311" text-anchor="middle" class="card-title" fill="#dc2626">SEC 63 BSA</text>
+  <text x="974" y="348" class="card-text">
+    <tspan x="974" dy="0">• Automated Sec 63</tspan>
+    <tspan x="984" dy="18">BSA / 65B IEA</tspan>
+    <tspan x="984" dy="18">statutory certificate.</tspan>
+    <tspan x="974" dy="30">• Prima facie</tspan>
+    <tspan x="984" dy="18">admissible without</tspan>
+    <tspan x="984" dy="18">evidentiary contest.</tspan>
+    <tspan x="974" dy="30">• Drops delay from</tspan>
+    <tspan x="984" dy="18">28 days to 1.2 sec.</tspan>
+  </text>
+
+</svg>

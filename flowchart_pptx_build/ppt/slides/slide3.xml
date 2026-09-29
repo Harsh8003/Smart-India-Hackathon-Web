@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr>
+      <p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/><a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>
+
+            <!-- Top Saffron Banner Bar -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="101" name="BannerTop"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="0" y="0"/><a:ext cx="12192000" cy="90000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="EA580C"/></a:solidFill>
+        </p:spPr>
+      </p:sp>
+
+      <!-- Slide Header Text Box -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="102" name="HeaderBox"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="240000"/><a:ext cx="10992000" cy="850000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:noFill/>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/><a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="EA580C"/></a:solidFill></a:rPr>
+              <a:t>NLADR PLATFORM ARCHITECTURE</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr sz="1100"><a:solidFill><a:srgbClr val="64748B"/></a:solidFill></a:rPr>
+              <a:t>  |  FLOWCHART DECK  |  SLIDE 3 OF 3: TAMPER WATCHDOG</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" marR="0" indent="0"/>
+            <a:r>
+              <a:rPr sz="2200" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr>
+              <a:t>Integrity Watchdog &amp; Malicious Tamper Quarantine</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" marR="0" indent="0"/>
+            <a:r>
+              <a:rPr sz="1100" i="1"><a:solidFill><a:srgbClr val="475569"/></a:solidFill></a:rPr>
+              <a:t>Decision flowchart illustrating automatic hash recalculation, quarantine enforcement &amp; judicial alerts</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- Divider Line -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="103" name="Divider"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="600000" y="1120000"/><a:ext cx="10992000" cy="25000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="CBD5E1"/></a:solidFill>
+        </p:spPr>
+      </p:sp>
+
+      <!-- STEP A: FILE INGESTION OR ACCESS (Top Center Rect) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="401" name="ActionNode"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="3800000" y="1450000"/><a:ext cx="4600000" cy="950000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 2000"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="F8FAFC"/></a:solidFill>
+          <a:ln w="22000"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/><a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r><a:rPr sz="1200" b="1"><a:solidFill><a:srgbClr val="002266"/></a:solidFill></a:rPr><a:t>EVIDENCE ACCESS OR COURT DISPATCH TRIGGER</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r><a:rPr sz="950"><a:solidFill><a:srgbClr val="475569"/></a:solidFill></a:rPr><a:t>User views document, transfers custody, or submits docket to Trial Court</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- Down Arrow to Decision Diamond -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="402" name="DownArrow1"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="5850000" y="2450000"/><a:ext cx="500000" cy="450000"/></a:xfrm>
+          <a:prstGeom prst="downArrow"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="002266"/></a:solidFill>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+
+      <!-- DECISION DIAMOND (Rhombus) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="403" name="DecisionDiamond"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="3900000" y="2950000"/><a:ext cx="4400000" cy="1600000"/></a:xfrm>
+          <a:prstGeom prst="rhombus"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="FEF3C7"/></a:solidFill>
+          <a:ln w="25400"><a:solidFill><a:srgbClr val="D97706"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/><a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r><a:rPr sz="1150" b="1"><a:solidFill><a:srgbClr val="92400E"/></a:solidFill></a:rPr><a:t>SHA-256 INTEGRITY CHECK</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r><a:rPr sz="950"><a:solidFill><a:srgbClr val="78350F"/></a:solidFill></a:rPr><a:t>Does Current File SHA-256 == Genesis Ledger Hash?</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- YES BRANCH -> RIGHT ARROW -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="404" name="ArrowYes"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="8400000" y="3550000"/><a:ext cx="550000" cy="400000"/></a:xfrm>
+          <a:prstGeom prst="rightArrow"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="16A34A"/></a:solidFill>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+
+      <!-- SUCCESS BOX (Right Side) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="405" name="SuccessBox"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="9100000" y="2950000"/><a:ext cx="2400000" cy="1600000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 2000"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="DCFCE7"/></a:solidFill>
+          <a:ln w="22000"><a:solidFill><a:srgbClr val="16A34A"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr" lIns="120000" rIns="120000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="1100" b="1"><a:solidFill><a:srgbClr val="166534"/></a:solidFill></a:rPr><a:t>[âœ“] 100% INTACT</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:r><a:rPr sz="900"><a:solidFill><a:srgbClr val="14532D"/></a:solidFill></a:rPr>
+            <a:t>â€¢ Section 63 BSA certificate issued.&#10;â€¢ Docket transmitted to trial judge.&#10;â€¢ Legally uncontested evidence.</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+      <!-- NO BRANCH -> DOWN ARROW (RED) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="406" name="ArrowNo"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="5850000" y="4600000"/><a:ext cx="500000" cy="450000"/></a:xfrm>
+          <a:prstGeom prst="downArrow"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="DC2626"/></a:solidFill>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+
+      <!-- QUARANTINE WARNING BOX (Bottom Wide Callout) -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="407" name="AlertCallout"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="1500000" y="5150000"/><a:ext cx="9200000" cy="1300000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 2000"/></a:avLst></p:prstGeom>
+          <a:solidFill><a:srgbClr val="FEF2F2"/></a:solidFill>
+          <a:ln w="25400"><a:solidFill><a:srgbClr val="DC2626"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr lIns="200000" tIns="140000" rIns="200000" bIns="140000"/><a:lstStyle/>
+          <a:p>
+            <a:r><a:rPr sz="1200" b="1"><a:solidFill><a:srgbClr val="991B1B"/></a:solidFill></a:rPr><a:t>[!] ðŸš¨ INTEGRITY MISMATCH DETECTED â€” AUTOMATED QUARANTINE</a:t></a:r>
+          </a:p>
+          <a:p>
+            <a:r><a:rPr sz="950"><a:solidFill><a:srgbClr val="7F1D1D"/></a:solidFill></a:rPr>
+            <a:t>â€¢ Transmission to trial court is FROZEN immediately.&#10;â€¢ Emergency alert dispatched with IP Address, actor identity &amp; timestamp to SP &amp; Trial Judge.&#10;â€¢ Mismatch violation cryptographically committed to permanent WORM audit logs.</a:t></a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+
+    </p:spTree>
+  </p:cSld>
+</p:sld>
